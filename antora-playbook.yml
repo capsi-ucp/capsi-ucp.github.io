@@ -1,5 +1,5 @@
 site:
-  title: Coderic Docs
+  title: Coderic Documentación
   start_page: component-b::index.adoc 
 content:
   sources: 
