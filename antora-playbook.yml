@@ -3,7 +3,7 @@ site:
   start_page: coderic-latam::index.adoc 
 content:
   sources: 
-  - url: git@github.com:CodericLatam/coderic-latam-docs.git
+  - url: https://github.com/CodericLatam/coderic-latam-docs.git
     branches: HEAD
     start_path: docs
   - url: https://github.com/CodericLatam/prodaric-docs.git
