@@ -16,6 +16,3 @@ ui:
   bundle:
     url: https://es.coderic.org/coderic-theme-docs/ui-bundle.zip
     snapshot: true
-git:
-  credentials:
-    contents: https://$GITHUB_TOKEN:@github.com
