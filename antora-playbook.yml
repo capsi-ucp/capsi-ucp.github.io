@@ -9,8 +9,6 @@ content:
   - url: https://github.com/CodericLatam/Prodaric.git
     branches: gh-pages
     start_path: docs
-##  - url: https://github.com/CodericLatam/prodaric-docs.git
-##    branches: HEAD
   - url: https://github.com/CodericLatam/protejo-docs.git
     branches: HEAD
   - url: https://github.com/CodericLatam/aquila-docs.git
@@ -18,4 +16,4 @@ content:
 ui: 
   bundle:
     url: https://es.coderic.org/coderic-theme-docs/ui-bundle.zip
-    snapshot: false
+    snapshot: true
