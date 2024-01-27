@@ -9,8 +9,9 @@ content:
   - url: https://github.com/CodericLatam/Prodaric.git
     branches: gh-pages
     start_path: docs
-  - url: https://github.com/CodericLatam/protejo-docs.git
+  - url: https://github.com/CodericLatam/Protejo.git
     branches: HEAD
+    start_path: docs
   - url: https://github.com/CodericLatam/aquila-docs.git
     branches: HEAD
 ui: 
