@@ -12,8 +12,8 @@ content:
   - url: https://github.com/CodericLatam/Protejo.git
     branches: HEAD
     start_path: docs
-  - url: https://github.com/CodericLatam/aquila-docs.git
-    branches: HEAD
+#  - url: https://github.com/CodericLatam/aquila-docs.git
+#    branches: HEAD
 ui: 
   bundle:
     url: https://es.coderic.org/coderic-theme-docs/ui-bundle.zip
