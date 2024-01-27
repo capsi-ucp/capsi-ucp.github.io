@@ -4,7 +4,7 @@ site:
   robots: allow
 content:
   sources: 
-  - url: https://github.com/CodericLatam/docs.git
+  - url: .
     branches: HEAD
   - url: https://github.com/CodericLatam/Prodaric.git
     branches: gh-pages
