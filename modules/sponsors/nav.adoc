@@ -1,3 +1,0 @@
-* Patrocinadores
-** xref:infrastructure.adoc[]
-** xref:funding.adoc[]

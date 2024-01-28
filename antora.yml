@@ -10,7 +10,6 @@ asciidoc:
     url-project: https://es.coderic.org/docs/
 nav:
 - modules/ROOT/nav.adoc
-- modules/policies/nav.adoc
 - modules/development/nav.adoc
 - modules/crowdfunding/nav.adoc
 - modules/coworking/nav.adoc
