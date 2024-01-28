@@ -6,4 +6,8 @@ TODO
 
 == ¿Qué es Coderic?
 
+TODO
+
 == Contribuir a Coderic
+
+TODO
