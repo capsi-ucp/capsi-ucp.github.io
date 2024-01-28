@@ -1,5 +1,5 @@
 * Descripción General
 ** xref:index.adoc[]
 ** xref:project.adoc[]
+** xref:history.adoc[]
 ** xref:join.adoc[]
-** xref:support.adoc[]
