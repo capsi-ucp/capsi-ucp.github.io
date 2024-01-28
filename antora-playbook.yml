@@ -1,7 +1,7 @@
 site:
   title: Coderic Documentación
   start_page: ROOT::index.adoc
-  robots: allow
+  robots: disallow
 content:
   sources: 
   - url: .
