@@ -1,4 +1,4 @@
-* Descripción General
+* La Organización
 ** xref:index.adoc[]
 ** xref:project.adoc[]
 ** xref:history.adoc[]
