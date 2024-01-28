@@ -11,8 +11,6 @@ asciidoc:
 nav:
 - modules/ROOT/nav.adoc
 - modules/policies/nav.adoc
-- modules/contribute/nav.adoc
-- modules/sponsors/nav.adoc
 - modules/development/nav.adoc
 - modules/crowdfunding/nav.adoc
 - modules/coworking/nav.adoc

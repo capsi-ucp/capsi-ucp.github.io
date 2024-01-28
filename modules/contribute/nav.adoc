@@ -1,2 +1,0 @@
-* Contribuciones
-** xref:guide.adoc[]
