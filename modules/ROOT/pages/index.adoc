@@ -1,4 +1,4 @@
-= Empezar
+= Introducción
 :permalink: index.html
 :summary: La presente documentación servirá para explicar y definir el funcionamiento y uso de la comunidad Coderic Latam, sus beneficios, su estructura organizativa, políticas, reglamentos, alcance y responsabilidad.
 :tags: ["getting_started"]
