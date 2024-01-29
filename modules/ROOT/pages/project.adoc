@@ -4,6 +4,36 @@
 
 TODO
 
+== Nuestro gran propósito
+La filosofía de Coderic sirven de fundamento para desarrollar y perpetuar una organización socialmente sensible y orientada al servicio; una organización vígorosa, centrada en la gente, gerencialmente participativa inspirada en la filosofía de la calidad intergral, y proyectada con gran responsabilidad hacía los paises y las comunidades donde operamos.
+
+- Administración humanista
+- Excelencia en calidad
+- Impulso y desarrollo de equipo
+- Orientación a la participación cooperativa
+
+== Principios fundamentales
+
+- Cooperativismo
+- Acceso abierto
+- Datos abiertos
+- Democracia directa
+- Economía solidaria (o economía al servicio de las personas )
+- Economía del bien común
+- Hardware libre
+- Software libre
+- Transparencia política
+
+== Prinicipios del Aprendizaje Dialógico
+
+- Diálogo igualitario
+- Inteligencia cultural
+- Transformación
+- Dimensión instrumental
+- Creación de sentido
+- Solidaridad
+- Igualdad de diferencias
+
 == ¿En qué creemos?
 
 TODO
