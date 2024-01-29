@@ -4,6 +4,8 @@
 ** xref:history.adoc[]
 ** xref:CODE_OF_CONDUCT.adoc[]
 ** xref:SECURITY.adoc[]
+** xref:PRIVACY.adoc[]
+** xref:CULTURE.adoc[]
 ** xref:CONTRIBUTING.adoc[]
 ** xref:join.adoc[]
 ** xref:sponsors.adoc[]
