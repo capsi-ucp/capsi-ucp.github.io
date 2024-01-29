@@ -2,12 +2,13 @@
 
 == Involucrarse
 
-TODO
-
-== ¿Qué es Coderic?
 
 TODO
 
 == Contribuir a Coderic
+
+TODO
+
+== ¿Qué beneficios obtendrás?
 
 TODO
