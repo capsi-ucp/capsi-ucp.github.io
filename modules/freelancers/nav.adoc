@@ -1,2 +1,2 @@
-* Autónomos (Freelancers)
+* Autónomos
 ** xref:index.adoc[]
