@@ -1,7 +1,6 @@
 = Introducción
 :summary: La presente documentación servirá para explicar y definir el funcionamiento y uso de la comunidad Coderic Latam, sus beneficios, su estructura organizativa, políticas, reglamentos, alcance y responsabilidad.
 
-
 [NOTE]
 [caption="Nota"]
 {summary}
@@ -10,4 +9,154 @@
 [caption="Importante"]
 El contenido del presente documento está en continua redacción, no requiere ser aceptada en su totalidad ya que de momento es un borrador en proceso de edición, las comunidades se construyen con la ayuda y participación de todos los miembros, colaboradores y audiencias; siéntase libre de aportar, expresar desacuerdos, sugerir ediciones, https://github.com/orgs/CodericLatam/discussions[discutir propuestas] o solicitar características y mejoras creando una https://github.com/CodericLatam/docs/issues/new/choose[Nueva Incidencia]
 
+
+== Fedora Documentation
+
+++++
+<div class="homepage-page">
+    <div class="homepage-section homepage-section-user-docs">
+        <h2>User Documentation</h2>
+
+        <div class="homepage-section-container">
+            <a href="../fedora/latest/"  class="homepage-link homepage-link-primary">  
+                <h3>Fedora&nbsp;Linux</h3>
+                <p>Get an overview about Fedora documentation, get to know how to start using Fedora and maintain your system, fetch the latest information about the currently supported releases, and where to find help in case of difficulties.</p>
+            </a>
+        </div>
+        
+        <div class="homepage-section-container">
+            <a href="../fedora-server/" class="homepage-link homepage-link-primary">
+                <h3>Fedora&nbsp;Server</h3>
+                <p>Deploy the services you need under your own control, and customized to your own requirements.</p>
+            </a>
+            <a href="../fedora-coreos/" class="homepage-link homepage-link-primary">
+                <h3>Fedora&nbsp;CoreOS</h3>
+                <p>A minimal, container-focused operating system, designed for clusters but also operable standalone.</p>
+            </a>
+            <a href="../iot/" class="homepage-link homepage-link-primary">
+                <h3>Fedora&nbsp;IoT</h3>
+                <p>Foundation for IoT projects at home, industrial gateways, smart cities or analytics with AI/ML.</p>
+            </a>
+        </div>
+
+        <div class="homepage-section-container">
+      
+            <a href="../workstation-docs/" class="homepage-link homepage-link-primary"  >
+                <h3>Fedora&nbsp;Workstation</h3>
+                <p>A reliable, user-friendly, and powerful operating system for your notebook or desktop computer.</p>
+            </a>
+            <a href="../emerging/" class="homepage-link homepage-link-primary" >
+                <h3>Atomic Desktops</h3>
+                <p>Silverblue and Kinoite are atomic desktop operating systems based on an alternate technology.</p>
+            </a>
+
+            <!--
+            <a href="../fedora-silverblue/" class="homepage-link homepage-link-primary" >
+                <h3>Fedora Silverblue</h3>
+                <p>Immutable desktop system featuring Gnome and a platform for container-focused workflows.</p>
+            </a>
+
+            <a href="../fedora-kinoite/" class="homepage-link homepage-link-primary" >
+                <h3>Fedora Kinoite</h3>
+                <p>Immutable desktop system featuring KDE Plasma and a platform for container-focused workflows.</p>
+            </a>
+            -->
+            <!--
+            <a href="https://labs.fedoraproject.org/" class="homepage-link homepage-link-primary">
+                <h3>Fedora&nbsp;Labs</h3>
+                <p>Curated bundles of purpose-driven software, maintained by Community members.</p>
+            </a>
+            -->
+            <a href="../spins-labs/" class="homepage-link homepage-link-primary">
+                <h3>Fedora&nbsp;Spins&nbsp;&&nbsp;Labs</h3>
+                <!-- 
+                <p>Curated bundles of purpose-driven software, maintained by Community members.</p>
+                
+                <p>A rich multitude of GUI variants and purpose-driven customizations maintained by members of the community</p>
+                -->
+                <p>A multitude of GUI variants and purpose-driven customizations of Fedora Workstation.</p>
+            </a>
+        </div>
+
+        <div class="homepage-section-container">
+            <a href="../quick-docs/" class="homepage-link homepage-link-secondary">
+                <h3>Quick Docs</h3>
+                <p>How tos and tutorials for using and configuring Fedora Linux.</p>
+            </a>
+            <a href="../tools/" class="homepage-link homepage-link-secondary" >
+                <h3>Fedora Tools</h3>
+                <p>Documentation of generic Fedora installation and administration tools.</p>
+            </a>
+            <a href="../epel/" class="homepage-link homepage-link-secondary">
+                <h3>EPEL</h3>
+                <p>Documentation for the Extra Packages for Enterprise Linux (EPEL) project.</p>
+            </a>
+            <a href="../arm-sbc/" class="homepage-link homepage-link-secondary">
+                <h3>ARM Single Board Computers</h3>
+                <p>Use Fedora on the Raspberry Pi and its powerful alternatives.</p>
+            </a>
+            <a href="../fedora-asahi-remix/" class="homepage-link homepage-link-secondary">
+                <h3>Fedora Asahi Remix</h3>
+                <p>Documentation for Fedora Linux on Apple Silicon Macintosh computers.</p>
+            </a>
+        </div>
+        
+    </div>
+
+
+
+
+    <div class="homepage-section homepage-section-project-docs">
+        <h2>Fedora Project &amp; Community</h2>
+        <div class="homepage-section-container">
+            <a href="../project/" class="homepage-link homepage-link-primary">
+                <h3>Fedora Project</h3>
+                <p>Learn how the Fedora Project works.</p>
+            </a>
+            <a href="../council/" class="homepage-link homepage-link-primary">
+                <h3>Fedora Council</h3>
+                <p>Learn about the Fedora Project governance.</p>
+            </a>
+        </div>
+        <div class="homepage-section-container">
+            <a href="../engineering/" class="homepage-link homepage-link-primary">
+                <h3>Engineering Teams</h3>
+                <p>Learn about FESCo and Engineering subprojects, SIGs, Work Groups, and teams.</p>
+            </a>
+            <a href="../mindshare/" class="homepage-link homepage-link-primary">
+                <h3>Mindshare Teams</h3>
+                <p>Activities beyond engineering: Learn about the teams focused on Fedora's outreach, brand, & more.</p>
+            </a>
+            <a href="../diversity-inclusion/" class="homepage-link homepage-link-primary">
+                <h3>Diversity & Inclusion</h3>
+                <p>The goal of this initiative is to help foster diversity and inclusion in Fedora community.</p>
+            </a>
+        </div>
+        <div class="homepage-section-container">
+            <a href="../legal/" class="homepage-link homepage-link-primary">
+                <h3>Legal</h3>
+                <p>Policies for licensing, trademarks, and other legal issues.</p>
+            </a>
+            <a href="../packaging-guidelines/" class="homepage-link homepage-link-primary">
+                <h3>Fedora Packaging Guidelines</h3>
+                <p>Learn about packaging for Fedora Linux — from both a policy and a technical perspective.</p>
+            </a>
+            <a href="../program_management/" class="homepage-link homepage-link-primary">
+                <h3>Program Management</h3>
+                <p>Release planning, scheduling, and status tracking.</p>
+            </a>
+        </div>
+        <div class="homepage-section-container">
+            <a href="https://fedoraproject.org/wiki/Outreachy/2017" class="homepage-link homepage-link-secondary">
+                <h3><i class="fas fa-external-link-alt"></i> Fedora's Outreachy Docs</h3>
+                <p>Outreachy is an internship program for people from group underrepresented in free and open source software.</p>
+            </a>
+            <a href="../mentored-projects/gsoc/2021/" class="homepage-link homepage-link-secondary">
+                <h3>Fedora's Google Project Participation</h3>
+                <p>Information about Google Summer of Code (GSoC), Google Code In (GCI), and Google Season of Docs (GSoD).</p>
+            </a>
+        </div>
+    </div>
+</div>
+++++
 
