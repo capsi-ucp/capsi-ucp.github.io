@@ -14,5 +14,5 @@ content:
     start_path: docs
 ui: 
   bundle:
-    url: https://codericlatam.github.io/coderic-theme-docs/ui-bundle.zip
+    url: https://codericlatam.github.io/theme-docs/ui-bundle.zip
     snapshot: true
