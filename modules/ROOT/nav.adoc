@@ -7,9 +7,9 @@
 ** xref:sponsors.adoc[]
 ** xref:infrastructure.adoc[]
 * Políticas y reglamentos
-** xref:CULTURE.adoc[]
 ** xref:CODE_OF_CONDUCT.adoc[]
 ** xref:SECURITY.adoc[]
 ** xref:PRIVACY.adoc[]
 ** xref:HABEAS-DATA.adoc[]
 ** xref:ANTI-SPAM.adoc[]
+** xref:CULTURE.adoc[]

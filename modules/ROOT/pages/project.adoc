@@ -46,6 +46,10 @@ TODO
 
 TODO
 
+== ¿Cómo está organizado Coderic?
+
+TODO
+
 == Nuestra Visión
 
 TODO
