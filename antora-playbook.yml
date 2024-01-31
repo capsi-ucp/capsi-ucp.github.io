@@ -37,3 +37,6 @@ ui:
   bundle:
     url: https://codericlatam.github.io/theme-docs/ui-bundle.zip
     snapshot: true
+asciidoc:
+  attributes:
+    page-component-sort-order: ROOT,development,crowdfunding,coworking,freelancers,learning,community,protejo,prodaric
