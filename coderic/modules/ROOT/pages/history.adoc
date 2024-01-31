@@ -2,7 +2,7 @@
 :figure-caption!:
 
 == Antecedentes
-Coderic fué iniciado el 6 de febrero de 2002 por Eduardo Bravo, José Cárdenas y Neftalí Yagua inicialmente se llamaría Impreelectrón la cuál se dedicaría a hacer circuitos electrónicos armables, como juegos para aficionados a la electrónica, en un principio, en su mayoría no conociamos personas que tuvieran la capacitación mínima para hacer uso de tales circuitos así que proyectamos a crear algo que pudiera ofrecer capacitación en áreas de electrónica, electricidad y robótica.
+Coderic fué concebido el 6 de febrero de 2002 por Eduardo Bravo, José Cárdenas y Neftalí Yagua inicialmente se llamaría Impreelectrón la cuál se dedicaría a hacer circuitos electrónicos armables, como juegos para aficionados a la electrónica, en un principio, en su mayoría no conociamos personas que tuvieran la capacitación mínima para hacer uso de tales circuitos así que proyectamos a crear algo que pudiera ofrecer capacitación en áreas de electrónica, electricidad y robótica.
 
 video::-KIGsc-qLMM[youtube, width="854",height="480"]
 
@@ -11,8 +11,7 @@ video::-KIGsc-qLMM[youtube, width="854",height="480"]
 En Marzo de 2003 Neftalí Yagua planificó lo que sería el nuevo nombre de la organización inspirado en el nombre de un proyecto de inteligencia conversacional llamado *Decabyte*, el proyecto era una aplicación que usaba el Servicio de mensajería de Microsoft y recursos del buscador de Google, el sistema ubicaba resultados basados en la palabra inicial que serviría de comando para la busqueda de contenidos en internet. Ideando un nombre corto y fácil de recordar se proyectó hacer un segundo robot llamado Erick que sería de código abierto, sí que se realizó un nombre compuesto basado en CODE de código en inglés y Erick siendo inicialmente Coderick la K se eliminó por ser poco práctico al escribir el nombre y dificil de recordar simplificando como *Coderic* más tarde al consolidarse la idea de la organización se buscó un significado más corporativo con la intención de justificar sus siglas llamándose Compañia Orientada al Desarrollo Estratégido de Recursos Informáticos Comerciales y También Compañia Orientada al Desarrollo Estratégico de Recursos de Información y Capacitación, quedando el primero por votación unánime. 
 En la actualidad se conoce como *Corporación Orientada al Desarrollo Estratégico de Recursos de Información Comercial*
 
-
-.Prototipo: Decabyte
+.Prototipo de Modelado 3D en el que fué inspirado el proyecto Decabyte
 image::decabyte.jpg["Decabyte"]
 
 == Trayectoría
@@ -29,10 +28,6 @@ Aún no se habían realizado los registros legales pertinentes así que se opto 
 
 .Diseño: Daniel Acevedo
 image::coderic_valores.jpg["Los Valores son la estructura del éxito. Humanismo, Responsabilidad, Vocación, Compromiso, Integración y Fé"]
-
-== Primera generación
-
-TODO
 
 == Radio Coderic
 

@@ -1,4 +1,4 @@
-* Apendizaje
-** xref:index.adoc[]
-** xref:videotutorials.adoc[]
+* xref:index.adoc[]
+* Frontend
+** xref:angular.adoc[]
 

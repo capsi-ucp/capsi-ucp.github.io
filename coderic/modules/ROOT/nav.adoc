@@ -2,6 +2,8 @@
 ** xref:index.adoc[]
 ** xref:project.adoc[]
 ** xref:history.adoc[]
+** xref:fundadores.adoc[]
+* Participar
 ** xref:join.adoc[]
 ** xref:CONTRIBUTING.adoc[]
 ** xref:sponsors.adoc[]
@@ -13,3 +15,4 @@
 ** xref:HABEAS-DATA.adoc[]
 ** xref:ANTI-SPAM.adoc[]
 ** xref:CULTURE.adoc[]
+

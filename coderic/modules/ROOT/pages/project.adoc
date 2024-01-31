@@ -44,17 +44,19 @@ TODO
 
 == ¿De qué se trata Coderic?
 
-TODO
+Pretendemos ofrecer las herramientas adecuadas en la medida que vamos entendiendo lo que el emprendedor realmente necesita para alcanzar el éxito empresarial.
 
 == ¿Cómo está organizado Coderic?
 
 TODO
 
+== Nuestra Misión
+
+Hemos aprendido que todos los seres humanos debemos recorrer nuestro propio camino hacia el emprendimiento empresarial, como una parte esencial necesaria para alcanzar una vida plena.
+
 == Nuestra Visión
 
 TODO
 
-== Nuestra Misión
-
-TODO
-
+== ¿Cómo obtener soporte?
+Disponemos de una serie de canales de comunicación, asistencia y soporte, altamente calificado, así como una biblioteca de documentación para solucionar los problemas que se puedan presentar

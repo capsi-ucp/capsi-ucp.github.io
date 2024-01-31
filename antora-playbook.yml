@@ -40,3 +40,6 @@ ui:
 asciidoc:
   attributes:
     page-component-sort-order: ROOT,development,crowdfunding,coworking,freelancers,learning,community,protejo,prodaric
+antora:
+  extensions:
+  - '@antora/lunr-extension'
