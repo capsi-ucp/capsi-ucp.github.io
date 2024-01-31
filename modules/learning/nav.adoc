@@ -1,2 +1,0 @@
-* Apendizaje
-** xref:index.adoc[]

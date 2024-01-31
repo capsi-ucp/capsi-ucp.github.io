@@ -1,0 +1,5 @@
+= Vídeotutoriales
+
+== Angular: Trabajando con un dashboard en angular 16
+
+video::wcucVfhUbmw/PLRfcnifbUdc2wkM2go6al7ZnJjOWY6cvW[youtube, width="854",height="480"]
