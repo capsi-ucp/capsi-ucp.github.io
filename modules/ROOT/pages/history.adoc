@@ -1,4 +1,5 @@
 = Historia
+:figure-caption!:
 
 == Antecedentes
 Coderic fué iniciado el 6 de febrero de 2002 por Eduardo Bravo, José Cárdenas y Neftalí Yagua inicialmente se llamaría Impreelectrón la cuál se dedicaría a hacer circuitos electrónicos armables, como juegos para aficionados a la electrónica, en un principio, en su mayoría no conociamos personas que tuvieran la capacitación mínima para hacer uso de tales circuitos así que proyectamos a crear algo que pudiera ofrecer capacitación en áreas de electrónica, electricidad y robótica.
@@ -10,17 +11,24 @@ video::-KIGsc-qLMM[youtube, width="854",height="480"]
 En Marzo de 2003 Neftalí Yagua planificó lo que sería el nuevo nombre de la organización inspirado en el nombre de un proyecto de inteligencia conversacional llamado *Decabyte*, el proyecto era una aplicación que usaba el Servicio de mensajería de Microsoft y recursos del buscador de Google, el sistema ubicaba resultados basados en la palabra inicial que serviría de comando para la busqueda de contenidos en internet. Ideando un nombre corto y fácil de recordar se proyectó hacer un segundo robot llamado Erick que sería de código abierto, sí que se realizó un nombre compuesto basado en CODE de código en inglés y Erick siendo inicialmente Coderick la K se eliminó por ser poco práctico al escribir el nombre y dificil de recordar simplificando como *Coderic* más tarde al consolidarse la idea de la organización se buscó un significado más corporativo con la intención de justificar sus siglas llamándose Compañia Orientada al Desarrollo Estratégido de Recursos Informáticos Comerciales y También Compañia Orientada al Desarrollo Estratégico de Recursos de Información y Capacitación, quedando el primero por votación unánime. 
 En la actualidad se conoce como *Corporación Orientada al Desarrollo Estratégico de Recursos de Información Comercial*
 
+
+.Prototipo: Decabyte
+image::decabyte.jpg["Decabyte"]
+
 == Trayectoría
 
-*Coderic* ha sido planificado para que sea un centro de capacitación, ese es el objetivo sobre el cuál fue concebido, sin embargo, por causa de la falta de capital para el proyecto inicial, se tomó la iniciativa de dar cursos gratuitos en sitios clandestinos, resultó un éxito tomando en cuenta que muchos de los que iniciaron en Coderic hoy día viven de lo que aprendieron en la organización, Coderic disponía de la radio y el chat que servia para atraer usuarios que tuvieran interés en aprender, lo cuál exitosamente cumplió sus objetivos, he incluso tuvo un foro de opinión, el cuál no fué tan bueno como los anteriores, los usuarios de Coderic no entendían el concepto de Foro, más tarde Coderic creció como organización, hasta el punto de que empresas como Lorini, Servicios Hosting, CyberVentas e iCadServers tuvieron la iniciativa de apoyar y patrocinar los servidores para la radio, el chat y las páginas web de Coderic y sus miembros, su patrocinio exigía una responsabilidad, la responsabilidad de promoverles a través de los medios de Coderic (la radio y el chat) lamentablemente el publico no era un publico orientado al consumo de tales servicios así que no se llenaron las espectativas de tales compañías.
+*Coderic* ha sido planificado para que sea un centro de capacitación, ese es el objetivo sobre el cuál fue concebido, sin embargo, por causa de la falta de capital para el proyecto inicial, se tomó la iniciativa de dar cursos gratuitos en sitios clandestinos, resultó un éxito tomando en cuenta que muchos de los que iniciaron en Coderic hoy día viven de lo que aprendieron en la organización, *Coderic* disponía de la radio y el chat que servia para atraer usuarios que tuvieran interés en aprender, lo cuál exitosamente cumplió sus objetivos, he incluso tuvo un foro de opinión, el cuál no fué tan bueno como los anteriores, los usuarios de *Coderic* no entendían el concepto de Foro, más tarde *Coderic* creció como organización, hasta el punto de que empresas como Lorini, Servicios Hosting, *CyberVentas* e *iCADServers* tuvieron la iniciativa de apoyar y patrocinar los servidores para la radio, el chat y las páginas web de *Coderic* y sus miembros, su patrocinio exigía una responsabilidad, la responsabilidad de promoverles a través de los medios de *Coderic* (la radio y el chat) lamentablemente el publico no era un publico orientado al consumo de tales servicios así que no se llenaron las espectativas de tales compañías.
 
-Al intentar hacer cambios en Coderic para dejar de ser un grupo aficionado para convertirlo en organización, muchos miembros se opusieron negándose a la iniciativa de incluir publicidades en los medios de Coderic y también se negaron a cumplir horarios, así como moderar el contenido de los mismos, lo cuál trajo como consecuencia la suspensión de los servicios por parte de los patrocinantes.
+Al intentar hacer cambios en *Coderic* para dejar de ser un grupo aficionado para convertirlo en organización, muchos miembros se opusieron negándose a la iniciativa de incluir publicidades en los medios de *Coderic* y también se negaron a cumplir horarios, así como moderar el contenido de los mismos, lo cuál trajo como consecuencia la suspensión de los servicios por parte de los patrocinadores.
 
-El 30 de Septiembre de 2004 Coderic se constituyó oficialmente como organización y comenzó a utilizar el nombre de forma oficial, en las redes y en los medios, a travéz de coderic.com vendiendo servicios de alojamiento web y desarrollo de sistemas, aún no constituido como compañia, luego de 6  meses acumulando fondos para el centro de capacitación y la fundación el 14 y 15 de Marzo de 2005 se lanzaron los portales usando MediaWiki y usando WordPress.
+El 30 de Septiembre de 2004 *Coderic* se constituyó oficialmente como organización y comenzó a utilizar el nombre de forma oficial, en las redes y en los medios, vendiendo servicios de alojamiento web y desarrollo de sistemas, aún no constituido como compañia, luego de 6  meses acumulando fondos para el centro de capacitación y la fundación el 14 y 15 de Marzo de 2005 se lanzaron los portales usando MediaWiki y usando WordPress.
 
 == Clausura Temporal
 
-Aún no se habían realizado los registros legales pertinentes así que se opto por conformar una cooperativa, buscando mantener el ideal altruista que carácterizaba a la organización pero toda la documentación de Coderic se estravió el 3 de febrero de 2007 en un maletín durante un viaje, el cuál tenìa nùmeros de contacto de Neftalí Yagua y Pablo de Genaro la persona que encontró el maletín contactó a Pablo de Genaro y este le ordeno que destruyera la información. La pérdida de toda la información de contacto de los miembros de la organización, y la bitácora de aportes de los miembros, así como llaves de los servidores y mucha información sustancialmente valiosa concluyó en el cese de actividades de Coderic, acto seguido el 17 de Octubre de 2007 los servidores de Coderic sufrieron multiples ataques. En respuesta a esto Daniel Acevedo diseño lo que se convertiría en la imagen de clausura de Coderic, un diseño que enunciaba los valores que representaban a la organización de la siguiente manera: «Los Valores son la estructura del éxito. Humanismo, Responsabilidad, Vocación, Compromiso, Integración y Fé».
+Aún no se habían realizado los registros legales pertinentes así que se opto por conformar una cooperativa, buscando mantener el ideal altruista que carácterizaba a la organización pero toda la documentación de Coderic se estravió el 3 de febrero de 2007 en un maletín durante un viaje, el cuál tenìa nùmeros de contacto de Neftalí Yagua y Pablo de Genaro la persona que encontró el maletín contactó a Pablo de Genaro y este le ordeno que destruyera la información. La pérdida de toda la información de contacto de los miembros de la organización, y la bitácora de aportes de los miembros, así como llaves de los servidores y mucha información sustancialmente valiosa concluyó en el cese de actividades de *Coderic*, acto seguido el 17 de Octubre de 2007 los servidores de Coderic sufrieron multiples ataques. En respuesta a esto Daniel Acevedo diseño lo que se convertiría en la imagen de clausura de Coderic, un diseño que enunciaba los valores que representaban a la organización de la siguiente manera: «Los Valores son la estructura del éxito. Humanismo, Responsabilidad, Vocación, Compromiso, Integración y Fé».
+
+.Diseño: Daniel Acevedo
+image::coderic_valores.jpg["Los Valores son la estructura del éxito. Humanismo, Responsabilidad, Vocación, Compromiso, Integración y Fé"]
 
 == Primera generación
 
@@ -28,7 +36,9 @@ TODO
 
 == Radio Coderic
 
-TODO
+Radio Coderic 89.5 FM
+
+https://locutoresyemisorasve.blogspot.com/p/emisoras.html[Locutores y Emisoras de Venezuela]
 
 == En la actualidad
 
