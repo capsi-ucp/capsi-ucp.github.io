@@ -6,7 +6,7 @@ content:
   sources: 
   - url: .
     branches: HEAD
-    start_path: coderic
+    start_path: ROOT
 
   - url: .
     branches: HEAD

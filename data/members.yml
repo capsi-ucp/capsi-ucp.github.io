@@ -1,0 +1,250 @@
+status: 200
+url: https://api.github.com/orgs/CodericLatam/members
+headers:
+  access-control-allow-origin: "*"
+  access-control-expose-headers: ETag, Link, Location, Retry-After, X-GitHub-OTP,
+    X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used,
+    X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes,
+    X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO,
+    X-GitHub-Request-Id, Deprecation, Sunset
+  cache-control: private, max-age=60, s-maxage=60
+  content-encoding: gzip
+  content-security-policy: default-src 'none'
+  content-type: application/json; charset=utf-8
+  date: Wed, 31 Jan 2024 11:59:31 GMT
+  etag: W/"acd788ed2659ce1238d0b1ae1875a1ab4dd5eb22efc9cc0b0989cb7f66a02432"
+  referrer-policy: origin-when-cross-origin, strict-origin-when-cross-origin
+  server: GitHub.com
+  strict-transport-security: max-age=31536000; includeSubdomains; preload
+  transfer-encoding: chunked
+  vary: Accept, Authorization, Cookie, X-GitHub-OTP, Accept-Encoding, Accept,
+    X-Requested-With
+  x-accepted-github-permissions: members=read
+  x-content-type-options: nosniff
+  x-frame-options: deny
+  x-github-api-version-selected: 2022-11-28
+  x-github-media-type: github.v3; format=json
+  x-github-request-id: A200:5C6E:24AB23A:4A98D93:65BA3623
+  x-ratelimit-limit: "1000"
+  x-ratelimit-remaining: "977"
+  x-ratelimit-reset: "1706704026"
+  x-ratelimit-resource: core
+  x-ratelimit-used: "23"
+  x-xss-protection: "0"
+data:
+  - login: abr4xas
+    id: 405484
+    node_id: MDQ6VXNlcjQwNTQ4NA==
+    avatar_url: https://avatars.githubusercontent.com/u/405484?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/abr4xas
+    html_url: https://github.com/abr4xas
+    followers_url: https://api.github.com/users/abr4xas/followers
+    following_url: https://api.github.com/users/abr4xas/following{/other_user}
+    gists_url: https://api.github.com/users/abr4xas/gists{/gist_id}
+    starred_url: https://api.github.com/users/abr4xas/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/abr4xas/subscriptions
+    organizations_url: https://api.github.com/users/abr4xas/orgs
+    repos_url: https://api.github.com/users/abr4xas/repos
+    events_url: https://api.github.com/users/abr4xas/events{/privacy}
+    received_events_url: https://api.github.com/users/abr4xas/received_events
+    type: User
+    site_admin: false
+  - login: cruzgerardo3
+    id: 15068662
+    node_id: MDQ6VXNlcjE1MDY4NjYy
+    avatar_url: https://avatars.githubusercontent.com/u/15068662?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/cruzgerardo3
+    html_url: https://github.com/cruzgerardo3
+    followers_url: https://api.github.com/users/cruzgerardo3/followers
+    following_url: https://api.github.com/users/cruzgerardo3/following{/other_user}
+    gists_url: https://api.github.com/users/cruzgerardo3/gists{/gist_id}
+    starred_url: https://api.github.com/users/cruzgerardo3/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/cruzgerardo3/subscriptions
+    organizations_url: https://api.github.com/users/cruzgerardo3/orgs
+    repos_url: https://api.github.com/users/cruzgerardo3/repos
+    events_url: https://api.github.com/users/cruzgerardo3/events{/privacy}
+    received_events_url: https://api.github.com/users/cruzgerardo3/received_events
+    type: User
+    site_admin: false
+  - login: Djcheats
+    id: 3869168
+    node_id: MDQ6VXNlcjM4NjkxNjg=
+    avatar_url: https://avatars.githubusercontent.com/u/3869168?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/Djcheats
+    html_url: https://github.com/Djcheats
+    followers_url: https://api.github.com/users/Djcheats/followers
+    following_url: https://api.github.com/users/Djcheats/following{/other_user}
+    gists_url: https://api.github.com/users/Djcheats/gists{/gist_id}
+    starred_url: https://api.github.com/users/Djcheats/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/Djcheats/subscriptions
+    organizations_url: https://api.github.com/users/Djcheats/orgs
+    repos_url: https://api.github.com/users/Djcheats/repos
+    events_url: https://api.github.com/users/Djcheats/events{/privacy}
+    received_events_url: https://api.github.com/users/Djcheats/received_events
+    type: User
+    site_admin: false
+  - login: edgarj
+    id: 3708680
+    node_id: MDQ6VXNlcjM3MDg2ODA=
+    avatar_url: https://avatars.githubusercontent.com/u/3708680?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/edgarj
+    html_url: https://github.com/edgarj
+    followers_url: https://api.github.com/users/edgarj/followers
+    following_url: https://api.github.com/users/edgarj/following{/other_user}
+    gists_url: https://api.github.com/users/edgarj/gists{/gist_id}
+    starred_url: https://api.github.com/users/edgarj/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/edgarj/subscriptions
+    organizations_url: https://api.github.com/users/edgarj/orgs
+    repos_url: https://api.github.com/users/edgarj/repos
+    events_url: https://api.github.com/users/edgarj/events{/privacy}
+    received_events_url: https://api.github.com/users/edgarj/received_events
+    type: User
+    site_admin: false
+  - login: EduardoPech
+    id: 7194949
+    node_id: MDQ6VXNlcjcxOTQ5NDk=
+    avatar_url: https://avatars.githubusercontent.com/u/7194949?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/EduardoPech
+    html_url: https://github.com/EduardoPech
+    followers_url: https://api.github.com/users/EduardoPech/followers
+    following_url: https://api.github.com/users/EduardoPech/following{/other_user}
+    gists_url: https://api.github.com/users/EduardoPech/gists{/gist_id}
+    starred_url: https://api.github.com/users/EduardoPech/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/EduardoPech/subscriptions
+    organizations_url: https://api.github.com/users/EduardoPech/orgs
+    repos_url: https://api.github.com/users/EduardoPech/repos
+    events_url: https://api.github.com/users/EduardoPech/events{/privacy}
+    received_events_url: https://api.github.com/users/EduardoPech/received_events
+    type: User
+    site_admin: false
+  - login: Gabriel-suarez
+    id: 68959418
+    node_id: MDQ6VXNlcjY4OTU5NDE4
+    avatar_url: https://avatars.githubusercontent.com/u/68959418?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/Gabriel-suarez
+    html_url: https://github.com/Gabriel-suarez
+    followers_url: https://api.github.com/users/Gabriel-suarez/followers
+    following_url: https://api.github.com/users/Gabriel-suarez/following{/other_user}
+    gists_url: https://api.github.com/users/Gabriel-suarez/gists{/gist_id}
+    starred_url: https://api.github.com/users/Gabriel-suarez/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/Gabriel-suarez/subscriptions
+    organizations_url: https://api.github.com/users/Gabriel-suarez/orgs
+    repos_url: https://api.github.com/users/Gabriel-suarez/repos
+    events_url: https://api.github.com/users/Gabriel-suarez/events{/privacy}
+    received_events_url: https://api.github.com/users/Gabriel-suarez/received_events
+    type: User
+    site_admin: false
+  - login: gerbaudo19
+    id: 67245961
+    node_id: MDQ6VXNlcjY3MjQ1OTYx
+    avatar_url: https://avatars.githubusercontent.com/u/67245961?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/gerbaudo19
+    html_url: https://github.com/gerbaudo19
+    followers_url: https://api.github.com/users/gerbaudo19/followers
+    following_url: https://api.github.com/users/gerbaudo19/following{/other_user}
+    gists_url: https://api.github.com/users/gerbaudo19/gists{/gist_id}
+    starred_url: https://api.github.com/users/gerbaudo19/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/gerbaudo19/subscriptions
+    organizations_url: https://api.github.com/users/gerbaudo19/orgs
+    repos_url: https://api.github.com/users/gerbaudo19/repos
+    events_url: https://api.github.com/users/gerbaudo19/events{/privacy}
+    received_events_url: https://api.github.com/users/gerbaudo19/received_events
+    type: User
+    site_admin: false
+  - login: josuegcardenas
+    id: 154767085
+    node_id: U_kgDOCTmO7Q
+    avatar_url: https://avatars.githubusercontent.com/u/154767085?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/josuegcardenas
+    html_url: https://github.com/josuegcardenas
+    followers_url: https://api.github.com/users/josuegcardenas/followers
+    following_url: https://api.github.com/users/josuegcardenas/following{/other_user}
+    gists_url: https://api.github.com/users/josuegcardenas/gists{/gist_id}
+    starred_url: https://api.github.com/users/josuegcardenas/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/josuegcardenas/subscriptions
+    organizations_url: https://api.github.com/users/josuegcardenas/orgs
+    repos_url: https://api.github.com/users/josuegcardenas/repos
+    events_url: https://api.github.com/users/josuegcardenas/events{/privacy}
+    received_events_url: https://api.github.com/users/josuegcardenas/received_events
+    type: User
+    site_admin: false
+  - login: juniorknot
+    id: 867405
+    node_id: MDQ6VXNlcjg2NzQwNQ==
+    avatar_url: https://avatars.githubusercontent.com/u/867405?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/juniorknot
+    html_url: https://github.com/juniorknot
+    followers_url: https://api.github.com/users/juniorknot/followers
+    following_url: https://api.github.com/users/juniorknot/following{/other_user}
+    gists_url: https://api.github.com/users/juniorknot/gists{/gist_id}
+    starred_url: https://api.github.com/users/juniorknot/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/juniorknot/subscriptions
+    organizations_url: https://api.github.com/users/juniorknot/orgs
+    repos_url: https://api.github.com/users/juniorknot/repos
+    events_url: https://api.github.com/users/juniorknot/events{/privacy}
+    received_events_url: https://api.github.com/users/juniorknot/received_events
+    type: User
+    site_admin: false
+  - login: NeftaliYagua
+    id: 2866454
+    node_id: MDQ6VXNlcjI4NjY0NTQ=
+    avatar_url: https://avatars.githubusercontent.com/u/2866454?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/NeftaliYagua
+    html_url: https://github.com/NeftaliYagua
+    followers_url: https://api.github.com/users/NeftaliYagua/followers
+    following_url: https://api.github.com/users/NeftaliYagua/following{/other_user}
+    gists_url: https://api.github.com/users/NeftaliYagua/gists{/gist_id}
+    starred_url: https://api.github.com/users/NeftaliYagua/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/NeftaliYagua/subscriptions
+    organizations_url: https://api.github.com/users/NeftaliYagua/orgs
+    repos_url: https://api.github.com/users/NeftaliYagua/repos
+    events_url: https://api.github.com/users/NeftaliYagua/events{/privacy}
+    received_events_url: https://api.github.com/users/NeftaliYagua/received_events
+    type: User
+    site_admin: false
+  - login: ricurdofh
+    id: 5685218
+    node_id: MDQ6VXNlcjU2ODUyMTg=
+    avatar_url: https://avatars.githubusercontent.com/u/5685218?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/ricurdofh
+    html_url: https://github.com/ricurdofh
+    followers_url: https://api.github.com/users/ricurdofh/followers
+    following_url: https://api.github.com/users/ricurdofh/following{/other_user}
+    gists_url: https://api.github.com/users/ricurdofh/gists{/gist_id}
+    starred_url: https://api.github.com/users/ricurdofh/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/ricurdofh/subscriptions
+    organizations_url: https://api.github.com/users/ricurdofh/orgs
+    repos_url: https://api.github.com/users/ricurdofh/repos
+    events_url: https://api.github.com/users/ricurdofh/events{/privacy}
+    received_events_url: https://api.github.com/users/ricurdofh/received_events
+    type: User
+    site_admin: false
+  - login: uokesita
+    id: 139400
+    node_id: MDQ6VXNlcjEzOTQwMA==
+    avatar_url: https://avatars.githubusercontent.com/u/139400?v=4
+    gravatar_id: ""
+    url: https://api.github.com/users/uokesita
+    html_url: https://github.com/uokesita
+    followers_url: https://api.github.com/users/uokesita/followers
+    following_url: https://api.github.com/users/uokesita/following{/other_user}
+    gists_url: https://api.github.com/users/uokesita/gists{/gist_id}
+    starred_url: https://api.github.com/users/uokesita/starred{/owner}{/repo}
+    subscriptions_url: https://api.github.com/users/uokesita/subscriptions
+    organizations_url: https://api.github.com/users/uokesita/orgs
+    repos_url: https://api.github.com/users/uokesita/repos
+    events_url: https://api.github.com/users/uokesita/events{/privacy}
+    received_events_url: https://api.github.com/users/uokesita/received_events
+    type: User
+    site_admin: false
