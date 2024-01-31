@@ -6,6 +6,7 @@ content:
   sources: 
   - url: .
     branches: HEAD
+    start_path: coderic
   - url: https://github.com/CodericLatam/Prodaric.git
     branches: gh-pages
     start_path: docs
