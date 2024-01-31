@@ -3,12 +3,8 @@
 ** xref:project.adoc[]
 ** xref:history.adoc[]
 ** xref:team.adoc[]
-* Participar
-** xref:join.adoc[]
-** xref:CONTRIBUTING.adoc[]
-** xref:sponsors.adoc[]
-** xref:infrastructure.adoc[]
-* Políticas y reglamentos
+
+* Políticas
 ** xref:CODE_OF_CONDUCT.adoc[]
 ** xref:SECURITY.adoc[]
 ** xref:PRIVACY.adoc[]
@@ -16,3 +12,8 @@
 ** xref:ANTI-SPAM.adoc[]
 ** xref:CULTURE.adoc[]
 
+* Únete a Coderic
+** xref:join.adoc[]
+** xref:CONTRIBUTING.adoc[]
+** xref:sponsors.adoc[]
+** xref:infrastructure.adoc[]
