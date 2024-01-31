@@ -1,7 +1,9 @@
 = Historia
 
 == Antecedentes
-Coderic fué iniciado el 6 de febrero de 2002 por Eduardo Bravo, José Cárdenas y Neftalí Yagua inicialmente se llamaría ImpreElectrón la cuál se dedicaría a hacer circuitos electrónicos armables, como juegos para aficionados a la electrónica, en un principio, en su mayoría no conociamos personas que tuvieran la capacitación mínima para hacer uso de tales circuitos así que proyectamos a crear algo que pudiera ofrecer capacitación áreas de electrónica, electricidad y robótica.
+Coderic fué iniciado el 6 de febrero de 2002 por Eduardo Bravo, José Cárdenas y Neftalí Yagua inicialmente se llamaría Impreelectrón la cuál se dedicaría a hacer circuitos electrónicos armables, como juegos para aficionados a la electrónica, en un principio, en su mayoría no conociamos personas que tuvieran la capacitación mínima para hacer uso de tales circuitos así que proyectamos a crear algo que pudiera ofrecer capacitación áreas de electrónica, electricidad y robótica.
+
+video::-KIGsc-qLMM[youtube, width="854",height="480"]
 
 == Fundación
 
