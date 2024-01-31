@@ -7,6 +7,26 @@ content:
   - url: .
     branches: HEAD
     start_path: coderic
+
+  - url: .
+    branches: HEAD
+    start_path: development
+  - url: .
+    branches: HEAD
+    start_path: crowdfunding
+  - url: .
+    branches: HEAD
+    start_path: coworking
+  - url: .
+    branches: HEAD
+    start_path: freelancers
+  - url: .
+    branches: HEAD
+    start_path: learning
+  - url: .
+    branches: HEAD
+    start_path: community
+
   - url: https://github.com/CodericLatam/Prodaric.git
     branches: gh-pages
     start_path: docs
