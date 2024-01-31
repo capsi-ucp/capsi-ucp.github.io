@@ -2,7 +2,7 @@
 ** xref:index.adoc[]
 ** xref:project.adoc[]
 ** xref:history.adoc[]
-** xref:fundadores.adoc[]
+** xref:team.adoc[]
 * Participar
 ** xref:join.adoc[]
 ** xref:CONTRIBUTING.adoc[]

@@ -1,0 +1,5 @@
+= Angular 16
+
+== Trabajando con un dashboard
+
+video::wcucVfhUbmw/PLRfcnifbUdc2wkM2go6al7ZnJjOWY6cvW[youtube, width="854",height="480"]

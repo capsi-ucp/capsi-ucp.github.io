@@ -1,0 +1,19 @@
+= Equipo
+:figure-caption!:
+
+== Fundadores
+image::yagua.png["Neftalí Yagua, Omar Yagua, Jonathan Yagua"]
+
+== Miembros importantes
+
+[example]
+En este cuadro honramos a quienes participaron en el desarrollo conceptual de las bases sobre las que Coderic fue fundada, su esfuerzo y dedicación, así como su aporte visionario y creativo han contribuído a crear una idea clara acerca de lo que Coderic representa para nosotros y para las comunidades en las que operamos. Muchos ya no forman parte activa dentro de Coderic, sin embargo expresamos este espacio como un sincero reconocimiento a su participación y contribución. Aunque algunos no han sido miembros de Coderic, se les reconoce ad-honorem por su importante aporte por la prosecución de la visión de esta organización.
+
+=== Primera generación
+image::miembros1.png["Ramón Lapenta, Carlos Almenhar, Freddy Marín, Daniel Acevedo, Luis Felipe Piña, Luis Mendoza, Alexander Monsalve, Jean Pierre Leal"]
+
+=== Segunda generación
+image::miembros2.png["Johan Cuadrado, Miguel Sumoza, Oscar Sandoval, José D' Genaro, Ángel Crúz, Vanessa Pinto, Oswald Martinez, Gregorio Díaz"]
+
+=== Tercera generación
+image::miembros3.png["John Albert Medina, Ricardo Fuentes, Maikel Matute, Gustavo Muñoz, Juliana Muñoz, Carlos Muñoz, Mariamnel Antuna, Andy Henríquez"]
