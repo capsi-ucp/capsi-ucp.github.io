@@ -26,13 +26,6 @@ content:
   - url: .
     branches: HEAD
     start_path: community
-
-  - url: https://github.com/CodericLatam/Prodaric.git
-    branches: gh-pages
-    start_path: docs
-  - url: https://github.com/CodericLatam/Protejo.git
-    branches: HEAD
-    start_path: docs
 ui: 
   bundle:
     url: https://coderic.github.io/theme-docs/ui-bundle.zip
