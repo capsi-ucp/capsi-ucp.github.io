@@ -33,6 +33,11 @@ image::coderic_valores.jpg["Los Valores son la estructura del éxito. Humanismo,
 
 Con la https://www.datacenterknowledge.com/archives/2008/06/01/explosion-at-the-planet-causes-major-outage[Explosión ocurrida en Junio de 2008 en el centro de datos H1 de "The Planet"] los servidores donde estaban alojados los portales de Coderic y Repositorios, aunque la información almacenada se pudo recuperar, se perdió acceso a las redes con las que permanecerían configurados los dominios de portales, se cerraron los sitios web hasta 2015.
 
+== Un sueño llamado Coderic
+
+.Parque Fernando Peñalver, Valencia, Venezuela
+image::team.jpeg["Coderic Development Team", caption="Figura 1: "]
+
 == Radio Coderic
 
 Radio Coderic 89.5 FM

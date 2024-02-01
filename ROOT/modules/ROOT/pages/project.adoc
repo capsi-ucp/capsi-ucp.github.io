@@ -1,11 +1,5 @@
 = Conócenos
 
-== Un sueño llamado Coderic
-
-.Coderic Development Team: Parque Fernando Peñalver, Valencia, Venezuela
-image::team.jpeg["Coderic Development Team", caption="Figura 1"]
-
-
 == Nuestro gran propósito
 La filosofía de Coderic sirve de fundamento para desarrollar y perpetuar una organización socialmente sensible y orientada al servicio; una organización vígorosa, centrada en la gente, gerencialmente participativa inspirada en la filosofía de la calidad intergral, y proyectada con gran responsabilidad hacía los paises y las comunidades donde operamos.
 
