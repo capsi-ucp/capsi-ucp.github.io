@@ -35,7 +35,7 @@ content:
     start_path: docs
 ui: 
   bundle:
-    url: https://codericlatam.github.io/theme-docs/ui-bundle.zip
+    url: https://coderic.github.io/theme-docs/ui-bundle.zip
     snapshot: true
 asciidoc:
   attributes:
