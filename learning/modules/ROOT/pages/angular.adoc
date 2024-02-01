@@ -1,4 +1,4 @@
-= Angular 16
+= Angular
 
 == Trabajando con un dashboard
 

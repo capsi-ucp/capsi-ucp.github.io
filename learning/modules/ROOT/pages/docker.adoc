@@ -1,0 +1,9 @@
+= Docker
+
+== Curso de Docker
+
+video::5z2kYFG3OfY/PLrb1e2Mp6N_tXQryuDVzOq4SLQKqVv1uz[youtube, width="854",height="480"]
+
+== Curso de Docker (en)
+
+video::nK3a2P1JOOw/PLCakfctNSHkGYdA82WDUKF3WGyONpGiEw[youtube, width="854",height="480"]
