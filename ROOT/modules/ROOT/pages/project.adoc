@@ -3,6 +3,7 @@
 == Nuestro gran propósito
 La filosofía de Coderic sirve de fundamento para desarrollar y perpetuar una organización socialmente sensible y orientada al servicio; una organización vígorosa, centrada en la gente, gerencialmente participativa inspirada en la filosofía de la calidad intergral, y proyectada con gran responsabilidad hacía los paises y las comunidades donde operamos.
 
+
 - Administración humanista
 - Excelencia en calidad
 - Impulso y desarrollo de equipo
@@ -30,6 +31,16 @@ La filosofía de Coderic sirve de fundamento para desarrollar y perpetuar una or
 - Solidaridad
 - Igualdad de diferencias
 
+== Valores Institucionales
+- Innovación: Promovemos la mentalidad innovadora y fomentamos la creatividad en la búsqueda de soluciones tecnológicas de vanguardia. Nos apasiona adoptar nuevas tecnologías, explorar nuevas ideas y abrazar el cambio como motor de crecimiento y mejora continua.
+- Calidad: Nos comprometemos a ofrecer productos y servicios de la más alta calidad. Nos esforzamos por superar las expectativas de nuestros clientes, cumpliendo con los estándares de excelencia y buscando la mejora continua en todos los aspectos de nuestro trabajo.
+- Trabajo en equipo: Fomentamos una cultura de colaboración y trabajo en equipo, reconociendo que el éxito se logra a través de la colaboración y el intercambio de conocimientos. Valoramos las contribuciones individuales y promovemos un ambiente de respeto, confianza y apoyo mutuo.
+- Orientación al cliente: Colocamos las necesidades y objetivos de nuestros clientes en el centro de todo lo que hacemos. Nos esforzamos por comprender sus desafíos y prioridades, brindando soluciones personalizadas y manteniendo una comunicación clara y transparente en todo momento.
+- Ética y transparencia: Actuamos con integridad, ética y transparencia en todas nuestras relaciones comerciales y decisiones. Mantenemos altos estándares de conducta profesional y respetamos la confidencialidad y privacidad de la información de nuestros clientes.
+- Aprendizaje continuo: Valoramos el aprendizaje y el desarrollo personal y profesional. Promovemos un entorno de aprendizaje continuo, fomentando la adquisición de nuevos conocimientos, habilidades y competencias para estar a la vanguardia de la tecnología y ofrecer un mejor servicio a nuestros clientes.
+- Responsabilidad social y ambiental: Nos comprometemos a actuar de manera responsable con el medio ambiente y la comunidad en la que operamos. Buscamos minimizar nuestro impacto ambiental, promovemos la diversidad e inclusión en el lugar de trabajo y contribuimos al desarrollo sostenible de la sociedad.
+
+
 == ¿En qué creemos?
 
 TODO
@@ -48,11 +59,24 @@ TODO
 
 == Nuestra Misión
 
-Hemos aprendido que todos los seres humanos debemos recorrer nuestro propio camino hacia el emprendimiento empresarial, como una parte esencial necesaria para alcanzar una vida plena.
+Nuestra misión es proporcionar soluciones de software innovadoras y de calidad que impulsen el éxito de nuestros usuarios y clientes. Nos comprometemos a desarrollar productos personalizados y a medida que sean confiables y escalables.
+
+Buscamos ser líderes en el campo del desarrollo de software, impulsando la transformación digital de las empresas y mejorando su competitividad en el mercado. Nos esforzamos por mantenernos a la vanguardia de las últimas tecnologías y tendencias, y aplicamos las mejores prácticas de desarrollo para entregar productos de alto rendimiento y fácil mantenimiento.
+
+Hemos aprendido que todos los seres humanos debemos recorrer nuestro propio camino hacia el emprendimiento empresarial, como una parte esencial necesaria para alcanzar una vida plena, por esta razón el corazón de nuestra misión es impulsar el desarrollo de sus proyectos.
+
 
 == Nuestra Visión
 
-TODO
+Nuestra visión abarca el establecimiento de relaciones sólidas y duraderas con nuestros usuarios y clientes, basadas en la confianza, la transparencia y la colaboración. Nos esforzamos por comprender sus desafíos y metas empresariales, y brindarles soluciones personalizadas que impulsen su crecimiento y éxito a largo plazo.
 
-== ¿Cómo obtener soporte?
-Disponemos de una serie de canales de comunicación, asistencia y soporte, altamente calificado, así como una biblioteca de documentación para solucionar los problemas que se puedan presentar
+Como equipo, aspiramos a ser una comunidad de profesionales altamente capacitados y apasionados por la tecnología. Fomentamos una cultura de aprendizaje continuo, donde cada miembro de nuestro equipo tenga la oportunidad de crecer y desarrollarse tanto a nivel personal como profesional.
+
+
+== Nuestros objetivos
+
+- Establecer metas para optimizar los procesos de desarrollo de software, implementando prácticas ágiles, herramientas de automatización y metodologías eficientes que permitan una entrega más rápida y rentable de productos de calidad.
+
+- Expandir la gama de servicios ofrecidos, identificando oportunidades de crecimiento y desarrollo en áreas complementarias como consultoría, mantenimiento de software, servicios en la nube, seguridad cibernética, entre otros.
+- Garantizar la satisfacción del cliente, midiendo y monitoreando constantemente la calidad de nuestros productos y servicios; trabajando para superar las expectativas en términos de funcionalidad, rendimiento
+- Promover el crecimiento profesional y personal de nuestro equipo, brindando oportunidades de formación, capacitación y desarrollo de habilidades, lo que a su vez contribuirá a la excelencia en el trabajo y al logro de nuestros objetivos.
