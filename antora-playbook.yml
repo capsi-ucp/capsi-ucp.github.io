@@ -12,7 +12,7 @@ ui:
     snapshot: true
 asciidoc:
   attributes:
-    page-component-sort-order: ROOT,development,crowdfunding,coworking,freelancers,learning,community
+    page-component-sort-order: ROOT
 antora:
   extensions:
   - '@antora/lunr-extension'
