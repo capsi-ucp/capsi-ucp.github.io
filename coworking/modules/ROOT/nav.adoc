@@ -1,2 +1,0 @@
-* Trabajo colaborativo
-** xref:index.adoc[]

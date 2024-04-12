@@ -1,7 +1,0 @@
-* xref:index.adoc[]
-* Frontend
-** xref:angular.adoc[]
-** xref:reactjs.adoc[]
-* Infraestructura
-** xref:docker.adoc[]
-

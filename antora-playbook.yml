@@ -1,33 +1,14 @@
 site:
-  title: Coderic Documentación
+  title: Capsi Documentación
   start_page: ROOT::index.adoc
 content:
   sources: 
   - url: .
     branches: HEAD
     start_path: ROOT
-
-  - url: .
-    branches: HEAD
-    start_path: development
-  - url: .
-    branches: HEAD
-    start_path: crowdfunding
-  - url: .
-    branches: HEAD
-    start_path: coworking
-  - url: .
-    branches: HEAD
-    start_path: freelancers
-  - url: .
-    branches: HEAD
-    start_path: learning
-  - url: .
-    branches: HEAD
-    start_path: community
 ui: 
   bundle:
-    url: https://coderic.github.io/theme-docs/ui-bundle.zip
+    url: https://capsi-ucp.github.io/theme-docs/ui-bundle.zip
     snapshot: true
 asciidoc:
   attributes:

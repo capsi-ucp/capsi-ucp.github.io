@@ -1,5 +1,0 @@
-= React.js
-
-== Curso de React.js
-
-video::MPLN1ahXgcs/PLvq-jIkSeTUZ5XcUw8fJPTBKEHEKPMTKk[youtube, width="854",height="480"]

@@ -1,2 +1,0 @@
-* Recaudación de fondos
-** xref:index.adoc[]

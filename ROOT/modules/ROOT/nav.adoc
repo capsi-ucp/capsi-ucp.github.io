@@ -1,19 +1,2 @@
-* La Organización
+* Proyecto
 ** xref:index.adoc[]
-** xref:project.adoc[]
-** xref:history.adoc[]
-** xref:team.adoc[]
-
-* Políticas
-** xref:CODE_OF_CONDUCT.adoc[]
-** xref:SECURITY.adoc[]
-** xref:PRIVACY.adoc[]
-** xref:HABEAS-DATA.adoc[]
-** xref:ANTI-SPAM.adoc[]
-** xref:CULTURE.adoc[]
-
-* Únete a Coderic
-** xref:join.adoc[]
-** xref:CONTRIBUTING.adoc[]
-** xref:sponsors.adoc[]
-** xref:infrastructure.adoc[]
