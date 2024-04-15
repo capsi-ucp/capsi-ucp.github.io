@@ -57,6 +57,12 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Install dependencies
         run: npm install
+      - name: plantuml
+        id: plantuml
+        uses: grassedge/generate-plantuml-action@v1.5
+        with:
+          path: ROOT/modules/proyecto/puml
+          message: "Render PlantUML files"
       - name: Build with antora
         run: npm run build
       - name: Upload artifact
