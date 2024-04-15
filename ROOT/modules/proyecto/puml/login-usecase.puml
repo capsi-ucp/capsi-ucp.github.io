@@ -1,0 +1,12 @@
+@startuml
+left to right direction
+actor Administrador
+actor Auxiliar
+actor Profesional
+rectangle Login {
+  usecase "Iniciar sesión" as Auth
+}
+Administrador --> Auth
+Auxiliar --> Auth
+Profesional --> Auth
+@enduml
