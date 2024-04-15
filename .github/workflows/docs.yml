@@ -35,7 +35,7 @@ jobs:
         fetch-depth: 1
     - name: plantuml
       id: plantuml
-      uses: grassedge/generate-plantuml-action@v1.5
+      uses: grassedge/generate-plantuml-action@master
       with:
         path: puml
         message: "Render PlantUML files"
