@@ -1,4 +1,4 @@
-@startuml secuencia
+@startuml capsi
 actor Foo1
 boundary Foo2
 control Foo3
