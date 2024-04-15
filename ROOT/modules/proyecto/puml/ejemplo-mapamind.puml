@@ -12,3 +12,12 @@
 *** <s>Angora</s> => Lorem
 *** <s>Siames</s> => Lipsum
 @endmindmap
+
+@startmindmap
+* Login
+** Iniciar Secion
+*** Autentica al usuario conforme al roll
+** Registra contraseña
+**Cerar sesion
+
+@endmindmap
