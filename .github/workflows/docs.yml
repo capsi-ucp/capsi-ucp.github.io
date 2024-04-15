@@ -54,10 +54,6 @@ jobs:
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Draw diagrams from PlantUML files
-        uses: Timmy/plantuml-action@v1
-        with:
-          args: '-v -DPLANTUML_LIMIT_SIZE=8192 -tpng ROOT/modules/proyecto/puml/*.puml -o ../images'
       - name: Install dependencies
         run: npm install
       - name: Build with antora
