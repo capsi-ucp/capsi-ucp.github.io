@@ -55,7 +55,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Setup plantuml
-        run: apt install plantuml -y
+        run: sudo apt install plantuml -y
       - name: Build with antora
         run: npm install
       - name: Build with antora
