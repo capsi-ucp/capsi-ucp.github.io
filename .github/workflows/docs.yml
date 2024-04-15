@@ -56,7 +56,9 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Setup plantuml
         run: sudo apt install plantuml graphviz openjdk-17-jre-headless -y
-      - name: Build with antora
+      - name: Generate UML Diagrams
+        run: plantuml -I ROOT/modules/proyecto/puml/*.puml -o ../images/ -tsvg 
+      - name: Install npm dependencies
         run: npm install
       - name: Build with antora
         run: npm run build
