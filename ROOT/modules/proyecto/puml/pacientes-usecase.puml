@@ -1,0 +1,23 @@
+@startuml
+left to right direction
+actor Administrador
+actor Auxiliar
+
+rectangle Paciente {  
+  usecase "Insertar paciente" as Auth
+  usecase "Editar paciente" as UC1
+  usecase "Borrar paciente" as UC2
+  usecase "Listar pacientes" as UC3
+}
+
+Administrador --> Auth
+Administrador --> UC1
+Administrador --> UC2
+Administrador --> UC3
+
+Auxiliar --> Auth
+Auxiliar --> UC1
+Auxiliar --> UC2
+Auxiliar --> UC3
+
+@enduml
