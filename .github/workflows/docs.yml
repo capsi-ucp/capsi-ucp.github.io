@@ -25,20 +25,28 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Build job
+  plantuml:
+    runs-on: ubuntu-latest
+    name: plantuml
+    steps:
+    - name: checkout
+      uses: actions/checkout@v1
+      with:
+        fetch-depth: 1
+    - name: plantuml
+      id: plantuml
+      uses: grassedge/generate-plantuml-action@v1.5
+      with:
+        path: puml
+        message: "Render PlantUML files"
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   build:
     runs-on: ubuntu-latest
+    needs: plantuml
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: plantuml
-        id: plantuml
-        uses: grassedge/generate-plantuml-action@v1.5
-        with:
-          path: puml
-          message: "Render PlantUML files"
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Detect package manager
         id: detect-package-manager
         run: |
