@@ -13,4 +13,4 @@ Lorem ipsum
 
 image::capsi.svg["Diagrama de ejemplo", caption="Figura 1: "]
 
-image::ejemplo.svg["Diagrama de ejemplo", caption="Figura 1: "]
+image::ejemplo-mapamind.svg["Diagrama de ejemplo", caption="Figura 1: "]
