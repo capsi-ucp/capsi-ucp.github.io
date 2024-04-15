@@ -54,10 +54,11 @@ jobs:
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      - name: Draw diagrams from PlantUML files
-        uses: Timmy/plantuml-action@v1
+      - name: Generate SVG Diagrams
+        uses: holowinski/plantuml-github-action@main
         with:
-          args: '-v -DPLANTUML_LIMIT_SIZE=8192 -tpng ROOT/modules/proyecto/images/*.puml -o img'
+          args: -v -tsvg ROOT/modules/proyecto/images/*.puml
+      - run: ls -al ROOT/modules/proyecto/images
       - name: Install dependencies
         run: npm install
       - name: Build with antora
