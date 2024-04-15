@@ -10,3 +10,5 @@ Lorem ipsum
 [IMPORTANT]
 [caption="Importante"]
 Lorem ipsum
+
+image::capsi.svg["Diagrama de ejemplo", caption="Figura 1: "]
