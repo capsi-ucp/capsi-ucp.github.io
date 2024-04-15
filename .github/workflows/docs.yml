@@ -63,6 +63,8 @@ jobs:
         with:
           path: ROOT/modules/proyecto/puml
           message: "Render PlantUML files"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Build with antora
         run: npm run build
       - name: Upload artifact
