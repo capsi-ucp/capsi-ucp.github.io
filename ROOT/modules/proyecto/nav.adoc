@@ -3,7 +3,6 @@
 ** xref:agradecimientos.adoc[]
 ** xref:resumen.adoc[]
 ** xref:tabla-de-graficas.adoc[]
-** xref:introduccion.adoc[]
 ** xref:objetivos.adoc[]
 ** xref:objetivo-general.adoc[]
 ** xref:objetivos-especificos.adoc[]
