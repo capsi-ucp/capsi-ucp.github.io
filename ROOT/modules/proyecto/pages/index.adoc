@@ -17,27 +17,29 @@ image::gestion-nav-mapamind.svg[]
 image::login-usecase.svg[]
 
 = Casos de uso
-== Citas
+== Operaciones
+=== Citas
 image::citas-usecase.svg[]
-== Pruebas
+=== Pruebas
 image::pruebas-usecase.svg[]
-== Consultorios
+=== Consultorios
 image::consultorios-usecase.svg[]
-== Pacientes
+== Maestros
+=== Pacientes
 image::pacientes-usecase.svg[]
-== Consultorios
+=== Consultorios
 image::consultorios-usecase.svg[]
-== Pruebas
+=== Pruebas
 image::pruebas-usecase.svg[]
-== Programas
+=== Programas
 image::programas-usecase.svg[]
-== Convenios
+=== Convenios
 image::convenios-usecase.svg[]
-== Eps
+=== Eps
 image::eps-usecase.svg[]
-== Estados
+=== Estados
 image::estados-usecase.svg[]
-== Usuarios
+=== Usuarios
 image::usuarios-usecase.svg[]
-== Permisos
+=== Permisos
 image::permisos-usecase.svg[]
