@@ -13,6 +13,6 @@ Lorem ipsum
 
 image::capsi.svg["Diagrama de ejemplo", caption="Figura 1: "]
 
-image::ejemplo-mapamind.svg["Diagrama de ejemplo", caption="Figura 1: "]
+image::gestion-nav-mapamind.svg["Diagrama de ejemplo", caption="Figura 1: "]
 image::login-usecase.svg["Diagrama de ejemplo", caption="Figura 1: "]
 image::pacientes-usecase.svg["Diagrama de ejemplo", caption="Figura 1: "]
