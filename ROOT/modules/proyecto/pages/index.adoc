@@ -18,11 +18,13 @@ image::login-usecase.svg[]
 
 = Casos de uso
 == Operaciones
-=== Citas
+=== Autenticación
+image::login-usecase.svg[]
+=== Reservar cita
 image::citas-usecase.svg[]
-=== Pruebas
+=== Reservar prueba
 image::pruebas-usecase.svg[]
-=== Consultorios
+=== Reservar consultorio
 image::consultorios-usecase.svg[]
 == Maestros
 === Pacientes
