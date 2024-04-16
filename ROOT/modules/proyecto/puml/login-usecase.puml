@@ -3,10 +3,18 @@ left to right direction
 actor Administrador
 actor Auxiliar
 actor Profesional
-rectangle Login {
+rectangle Login #BUSINESS {
   usecase "Iniciar sesión" as Auth
+  usecase "Acceso Panel Profesional" as PanelProfesional
+  usecase "Acceso Panel Gestión" as PanelAdmin
+  usecase "Credenciales inválidas" as FailAuth
+  note "Dependerá del nivel del usuario\r\nDeterminar el panel correspondiente" as Condition
 }
-Administrador --> Auth
-Auxiliar --> Auth
-Profesional --> Auth
+Auth <.- FailAuth
+Auth --> PanelProfesional
+Auth --> PanelAdmin
+Auth -> Condition
+Administrador -- Auth
+Auxiliar -- Auth
+Profesional -- Auth
 @enduml
