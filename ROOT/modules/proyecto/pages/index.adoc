@@ -16,8 +16,8 @@ image::capsi.svg[]
 image::gestion-nav-mapamind.svg[]
 image::login-usecase.svg[]
 
-= Casos de uso
-== Operaciones
+= Diagramas de casos de uso de negocio
+== Control de acceso
 === Autenticación
 image::login-usecase.svg[]
 === Reservar cita
@@ -26,6 +26,7 @@ image::citas-usecase.svg[]
 image::pruebas-usecase.svg[]
 === Reservar consultorio
 image::consultorios-usecase.svg[]
+= Diagramas de casos de uso de aplicación
 == Maestros
 === Pacientes
 image::pacientes-usecase.svg[]
