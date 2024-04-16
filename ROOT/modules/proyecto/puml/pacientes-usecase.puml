@@ -14,9 +14,9 @@ rectangle Paciente {
   note "Auxiliar puede o no realizar\r\n ciertas acciones de acuerdo\r\n al control de acceso" as Acl
 }
 
-CRUD --.> C
-CRUD --.> R
-CRUD --.> U
+CRUD <--. C
+CRUD <--. R
+CRUD <--. U
 
 R <.. Searchable
 R <.. Sortable
