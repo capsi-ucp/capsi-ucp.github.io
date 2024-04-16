@@ -3,7 +3,7 @@ left to right direction
 actor Administrador
 actor Auxiliar
 
-rectangle Paciente {
+rectangle Paciente #Application {
   usecase "Insertar paciente" as C
   usecase "Listar pacientes" as R
   usecase "Editar paciente" as U
