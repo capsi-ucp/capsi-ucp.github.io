@@ -23,7 +23,7 @@ R <.. Sortable
 U <.. D: "Eliminar un paciente"
 R <.. D: "Eliminar varios pacientes"
 
-Administrador --> CRUD
-Auxiliar --> CRUD
-Acl -> CRUD
+Administrador -- CRUD
+Auxiliar -- CRUD
+Acl - CRUD
 @enduml

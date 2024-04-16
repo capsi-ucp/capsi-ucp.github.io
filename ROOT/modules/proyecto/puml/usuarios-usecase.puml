@@ -23,7 +23,7 @@ R <.. Sortable
 U <.. D: "Eliminar un usuario"
 R <.. D: "Eliminar varios usuarios"
 
-Administrador --> CRUD
-Auxiliar --> CRUD
-Acl -> CRUD
+Administrador -- CRUD
+Auxiliar -- CRUD
+Acl - CRUD
 @enduml

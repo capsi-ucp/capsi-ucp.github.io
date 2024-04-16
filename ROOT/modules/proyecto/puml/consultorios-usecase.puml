@@ -23,7 +23,7 @@ R <.. Sortable
 U <.. D: "Eliminar un consultorio"
 R <.. D: "Eliminar varios consultorios"
 
-Administrador --> CRUD
-Auxiliar --> CRUD
-Acl -> CRUD
+Administrador -- CRUD
+Auxiliar -- CRUD
+Acl - CRUD
 @enduml

@@ -23,7 +23,7 @@ R <.. Sortable
 U <.. D: "Eliminar un estado"
 R <.. D: "Eliminar varios estados"
 
-Administrador --> CRUD
-Auxiliar --> CRUD
-Acl -> CRUD
+Administrador -- CRUD
+Auxiliar -- CRUD
+Acl - CRUD
 @enduml

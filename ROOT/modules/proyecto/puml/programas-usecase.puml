@@ -23,7 +23,7 @@ R <.. Sortable
 U <.. D: "Eliminar un programa"
 R <.. D: "Eliminar varios programas"
 
-Administrador --> CRUD
-Auxiliar --> CRUD
-Acl -> CRUD
+Administrador -- CRUD
+Auxiliar -- CRUD
+Acl - CRUD
 @enduml

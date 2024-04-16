@@ -23,7 +23,7 @@ R <.. Sortable
 U <.. D: "Eliminar un permiso"
 R <.. D: "Eliminar varios permisos"
 
-Administrador --> CRUD
-Auxiliar --> CRUD
-Acl -> CRUD
+Administrador -- CRUD
+Auxiliar -- CRUD
+Acl - CRUD
 @enduml

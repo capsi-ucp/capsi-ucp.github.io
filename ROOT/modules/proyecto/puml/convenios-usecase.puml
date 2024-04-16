@@ -23,7 +23,7 @@ R <.. Sortable
 U <.. D: "Eliminar un convenio"
 R <.. D: "Eliminar varios convenios"
 
-Administrador --> CRUD
-Auxiliar --> CRUD
-Acl -> CRUD
+Administrador -- CRUD
+Auxiliar -- CRUD
+Acl - CRUD
 @enduml
