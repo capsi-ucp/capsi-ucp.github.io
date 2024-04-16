@@ -3,7 +3,7 @@ left to right direction
 actor Administrador
 actor Auxiliar
 
-rectangle Paciente {  
+rectangle Paciente {
   usecase "Administrar paciente" as CRUD
   usecase "Insertar paciente" as C
   usecase "Listar pacientes" as R
@@ -11,9 +11,9 @@ rectangle Paciente {
   usecase "Borrar paciente" as D
   usecase "Filtrar paciente" as Searchable
   usecase "Ordenar paciente" as Sortable
-  usecase "Borrar múltiples pacientes" as Bulk
   note "Auxiliar puede o no realizar\r\n ciertas acciones de acuerdo\r\n al control de acceso" as Acl
 }
+
 CRUD --> C
 CRUD --> R
 CRUD --> U
@@ -21,8 +21,8 @@ CRUD --> D
 
 R --> Searchable
 R --> Sortable
-R -.> Bulk: "A discreción"
-U .> D: "Eliminar algún paciente"
+U .> D: "Eliminar un paciente"
+R .> D: "Borrar varios pacientes"
 
 Administrador --> CRUD
 Auxiliar --> CRUD
