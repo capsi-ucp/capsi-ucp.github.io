@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+actor Administrador
+actor Auxiliar
+
+rectangle Consultorio #Application {
+  usecase "Insertar consultorio" as C
+  usecase "Listar consultorios" as R
+  usecase "Editar consultorio" as U
+  usecase "Eliminar consultorio" as D
+  usecase "Filtrar consultorios" as Searchable
+  usecase "Ordenar consultorios" as Sortable
+  usecase "Administrar consultorios" as CRUD
+  note "Auxiliar puede o no realizar\r\n ciertas acciones de acuerdo\r\n al control de acceso" as Acl
+}
+
+CRUD <--. C
+CRUD <--. R
+CRUD <--. U
+
+R <.. Searchable
+R <.. Sortable
+U <.. D: "Eliminar un consultorio"
+R <.. D: "Eliminar varios consultorios"
+
+Administrador --> CRUD
+Auxiliar --> CRUD
+Acl -> CRUD
+@enduml

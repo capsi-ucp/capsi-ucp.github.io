@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+actor Administrador
+actor Auxiliar
+
+rectangle EPS #Application {
+  usecase "Insertar EPS" as C
+  usecase "Listar EPS" as R
+  usecase "Editar EPS" as U
+  usecase "Eliminar EPS" as D
+  usecase "Filtrar EPS" as Searchable
+  usecase "Ordenar EPS" as Sortable
+  usecase "Administrar EPS" as CRUD
+  note "Auxiliar puede o no realizar\r\n ciertas acciones de acuerdo\r\n al control de acceso" as Acl
+}
+
+CRUD <--. C
+CRUD <--. R
+CRUD <--. U
+
+R <.. Searchable
+R <.. Sortable
+U <.. D: "Eliminar un EPS"
+R <.. D: "Eliminar varios EPS"
+
+Administrador --> CRUD
+Auxiliar --> CRUD
+Acl -> CRUD
+@enduml

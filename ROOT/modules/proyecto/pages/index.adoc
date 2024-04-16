@@ -11,8 +11,33 @@ Lorem ipsum
 [caption="Importante"]
 Lorem ipsum
 
-image::capsi.svg["Diagrama de ejemplo", caption="Figura 1: "]
+image::capsi.svg[]
 
-image::gestion-nav-mapamind.svg["Diagrama de ejemplo", caption="Figura 1: "]
-image::login-usecase.svg["Diagrama de ejemplo", caption="Figura 1: "]
-image::pacientes-usecase.svg["Diagrama de ejemplo", caption="Figura 1: "]
+image::gestion-nav-mapamind.svg[]
+image::login-usecase.svg[]
+
+= Casos de uso
+== Citas
+image::citas-usecase.svg[]
+== Pruebas
+image::pruebas-usecase.svg[]
+== Consultorios
+image::consultorios-usecase.svg[]
+== Pacientes
+image::pacientes-usecase.svg[]
+== Consultorios
+image::consultorios-usecase.svg[]
+== Pruebas
+image::pruebas-usecase.svg[]
+== Programas
+image::programas-usecase.svg[]
+== Convenios
+image::convenios-usecase.svg[]
+== Eps
+image::eps-usecase.svg[]
+== Estados
+image::estados-usecase.svg[]
+== Usuarios
+image::usuarios-usecase.svg[]
+== Permisos
+image::permisos-usecase.svg[]

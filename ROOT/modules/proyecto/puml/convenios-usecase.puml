@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+actor Administrador
+actor Auxiliar
+
+rectangle Convenio #Application {
+  usecase "Insertar convenio" as C
+  usecase "Listar convenios" as R
+  usecase "Editar convenio" as U
+  usecase "Eliminar convenio" as D
+  usecase "Filtrar convenios" as Searchable
+  usecase "Ordenar convenios" as Sortable
+  usecase "Administrar convenios" as CRUD
+  note "Auxiliar puede o no realizar\r\n ciertas acciones de acuerdo\r\n al control de acceso" as Acl
+}
+
+CRUD <--. C
+CRUD <--. R
+CRUD <--. U
+
+R <.. Searchable
+R <.. Sortable
+U <.. D: "Eliminar un convenio"
+R <.. D: "Eliminar varios convenios"
+
+Administrador --> CRUD
+Auxiliar --> CRUD
+Acl -> CRUD
+@enduml

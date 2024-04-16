@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+actor Administrador
+actor Auxiliar
+
+rectangle Programa #Application {
+  usecase "Insertar programa" as C
+  usecase "Listar programas" as R
+  usecase "Editar programa" as U
+  usecase "Eliminar programa" as D
+  usecase "Filtrar programas" as Searchable
+  usecase "Ordenar programas" as Sortable
+  usecase "Administrar programas" as CRUD
+  note "Auxiliar puede o no realizar\r\n ciertas acciones de acuerdo\r\n al control de acceso" as Acl
+}
+
+CRUD <--. C
+CRUD <--. R
+CRUD <--. U
+
+R <.. Searchable
+R <.. Sortable
+U <.. D: "Eliminar un programa"
+R <.. D: "Eliminar varios programas"
+
+Administrador --> CRUD
+Auxiliar --> CRUD
+Acl -> CRUD
+@enduml

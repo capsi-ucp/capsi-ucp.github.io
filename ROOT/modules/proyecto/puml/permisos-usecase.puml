@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+actor Administrador
+actor Auxiliar
+
+rectangle Permiso #Application {
+  usecase "Insertar permiso" as C
+  usecase "Listar permisos" as R
+  usecase "Editar permiso" as U
+  usecase "Eliminar permiso" as D
+  usecase "Filtrar permisos" as Searchable
+  usecase "Ordenar permisos" as Sortable
+  usecase "Administrar permisos" as CRUD
+  note "Auxiliar puede o no realizar\r\n ciertas acciones de acuerdo\r\n al control de acceso" as Acl
+}
+
+CRUD <--. C
+CRUD <--. R
+CRUD <--. U
+
+R <.. Searchable
+R <.. Sortable
+U <.. D: "Eliminar un permiso"
+R <.. D: "Eliminar varios permisos"
+
+Administrador --> CRUD
+Auxiliar --> CRUD
+Acl -> CRUD
+@enduml

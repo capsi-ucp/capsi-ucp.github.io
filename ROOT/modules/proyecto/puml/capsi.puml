@@ -1,0 +1,13 @@
+@startuml
+skinparam minClassWidth 125
+skinparam nodesep 10
+skinparam ranksep 10
+
+rectangle "Aplicación"    #Application
+rectangle "Negocio"      #Business
+rectangle "Implementación" #Implementation
+rectangle "Motivación"     #Motivation
+rectangle "Físico"       #Physical
+rectangle "Estrategia"       #Strategy
+rectangle "Tecnología"     #Technology
+@enduml
