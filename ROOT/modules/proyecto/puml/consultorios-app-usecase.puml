@@ -3,7 +3,7 @@ left to right direction
 actor Administrador
 actor Auxiliar
 
-rectangle Consultorio #BUSINESS {
+rectangle Consultorio #APPLICATION {
   usecase "Insertar consultorio" as C
   usecase "Listar consultorios" as R
   usecase "Editar consultorio" as U

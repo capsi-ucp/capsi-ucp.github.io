@@ -3,7 +3,7 @@ left to right direction
 actor Administrador
 actor Auxiliar
 
-rectangle Cita #BUSINESS {
+rectangle Cita #APPLICATION {
   usecase "Insertar cita" as C
   usecase "Listar citas" as R
   usecase "Editar cita" as U

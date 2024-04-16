@@ -3,7 +3,7 @@ left to right direction
 actor Administrador
 actor Auxiliar
 
-rectangle Prueba #BUSINESS {
+rectangle "Reservar prueba" #BUSINESS {
   usecase "Insertar Prueba" as C
   usecase "Listar Pruebas" as R
   usecase "Editar Prueba" as U

@@ -1,0 +1,29 @@
+@startuml
+left to right direction
+actor Administrador
+actor Auxiliar
+
+rectangle Prueba #APPLICATION {
+  usecase "Insertar Prueba" as C
+  usecase "Listar Pruebas" as R
+  usecase "Editar Prueba" as U
+  usecase "Eliminar Prueba" as D
+  usecase "Filtrar Pruebas" as Searchable
+  usecase "Ordenar Pruebas" as Sortable
+  usecase "Administrar Pruebas" as CRUD
+  note "Auxiliar puede o no realizar\r\n ciertas acciones de acuerdo\r\n al control de acceso" as Acl
+}
+
+CRUD <--. C
+CRUD <--. R
+CRUD <--. U
+
+R <.. Searchable
+R <.. Sortable
+U <.. D: "Eliminar un Prueba"
+R <.. D: "Eliminar varios Pruebas"
+
+Administrador -- CRUD
+Auxiliar -- CRUD
+Acl - CRUD
+@enduml

@@ -18,26 +18,32 @@ image::gestion-nav-mapamind.png[]
 = Diagramas de casos de uso de negocio
 == Control de acceso
 === Autenticación
-image::login-usecase.png[]
+image::login-business-usecase.png[]
 === Reservar cita
-image::citas-usecase.png[]
+image::citas-business-usecase.png[]
 === Reservar prueba
-image::pruebas-usecase.png[]
+image::pruebas-business-usecase.png[]
 === Reservar consultorio
-image::consultorios-usecase.png[]
+image::consultorios-business-usecase.png[]
 = Diagramas de casos de uso de aplicación
 == Maestros
+=== Cita
+image::citas-app-usecase.png[]
+=== Prueba
+image::pruebas-app-usecase.png[]
+=== Consultorio
+image::consultorios-app-usecase.png[]
 === Pacientes
-image::pacientes-usecase.png[]
+image::pacientes-app-usecase.png[]
 === Programas
-image::programas-usecase.png[]
+image::programas-app-usecase.png[]
 === Convenios
-image::convenios-usecase.png[]
+image::convenios-app-usecase.png[]
 === Eps
-image::eps-usecase.png[]
+image::eps-app-usecase.png[]
 === Estados
-image::estados-usecase.png[]
+image::estados-app-usecase.png[]
 === Usuarios
-image::usuarios-usecase.png[]
+image::usuarios-app-usecase.png[]
 === Permisos
-image::permisos-usecase.png[]
+image::permisos-app-usecase.png[]

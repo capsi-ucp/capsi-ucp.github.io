@@ -1,0 +1,13 @@
+@startuml
+actor Profesiona
+boundary Panel
+control Foo3
+entity Foo4
+database Foo5
+collections Pacientes
+Profesional -[#red]> Operador : Al límite
+Profesional -> Foo3 : Al control
+Profesional -> Foo4 : A la entidad
+Profesional -> Foo5 : A la base de datos
+Profesional -> Pacientes : A colecciones
+@enduml
