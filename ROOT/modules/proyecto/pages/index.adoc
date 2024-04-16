@@ -11,33 +11,33 @@ Lorem ipsum
 [caption="Importante"]
 Lorem ipsum
 
-image::capsi.svg[]
+image::capsi.png[]
 
-image::gestion-nav-mapamind.svg[]
+image::gestion-nav-mapamind.png[]
 
 = Diagramas de casos de uso de negocio
 == Control de acceso
 === Autenticación
-image::login-usecase.svg[]
+image::login-usecase.png[]
 === Reservar cita
-image::citas-usecase.svg[]
+image::citas-usecase.png[]
 === Reservar prueba
-image::pruebas-usecase.svg[]
+image::pruebas-usecase.png[]
 === Reservar consultorio
-image::consultorios-usecase.svg[]
+image::consultorios-usecase.png[]
 = Diagramas de casos de uso de aplicación
 == Maestros
 === Pacientes
-image::pacientes-usecase.svg[]
+image::pacientes-usecase.png[]
 === Programas
-image::programas-usecase.svg[]
+image::programas-usecase.png[]
 === Convenios
-image::convenios-usecase.svg[]
+image::convenios-usecase.png[]
 === Eps
-image::eps-usecase.svg[]
+image::eps-usecase.png[]
 === Estados
-image::estados-usecase.svg[]
+image::estados-usecase.png[]
 === Usuarios
-image::usuarios-usecase.svg[]
+image::usuarios-usecase.png[]
 === Permisos
-image::permisos-usecase.svg[]
+image::permisos-usecase.png[]

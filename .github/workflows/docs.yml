@@ -58,8 +58,6 @@ jobs:
         run: sudo apt install plantuml graphviz openjdk-17-jre-headless -y 
       - name: Install npm dependencies
         run: npm install
-      - name: Generate SVG UML Diagrams
-        run: npm run generate-svg-diagrams
       - name: Generate PNG UML Diagrams
         run: npm run generate-png-diagrams
       - name: Build with antora
