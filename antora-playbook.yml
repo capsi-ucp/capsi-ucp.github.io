@@ -15,6 +15,7 @@ ui:
 asciidoc:
   attributes:
     page-component-sort-order: ROOT
+    doctype: book
 antora:
   extensions:
   - '@antora/lunr-extension'
