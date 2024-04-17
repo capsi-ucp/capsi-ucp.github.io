@@ -20,7 +20,7 @@ image::gestion-nav-mapamind.png[]
 === Autenticación
 image::login-business-usecase.png[]
 === Reservar cita
-image::citas-business-usecase.png[]
+image::citas-bus-usecase.png[]
 === Reservar prueba
 image::pruebas-business-usecase.png[]
 === Reservar consultorio
