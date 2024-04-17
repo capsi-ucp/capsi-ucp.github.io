@@ -55,7 +55,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Setup plantuml
-        run: sudo apt install plantuml graphviz openjdk-17-jre-headless -y 
+        run: sudo apt install plantuml -y 
       - name: Install npm dependencies
         run: npm install
       - name: Generate PNG UML Diagrams

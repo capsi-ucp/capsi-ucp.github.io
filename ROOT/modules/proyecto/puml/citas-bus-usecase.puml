@@ -1,6 +1,6 @@
 @startuml
 left to right direction
-actor/ Operador
-actor/ Profesional
+actor Operador
+actor Profesional
 
 @enduml
