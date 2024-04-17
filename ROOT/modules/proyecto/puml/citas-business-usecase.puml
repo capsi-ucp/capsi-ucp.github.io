@@ -21,9 +21,9 @@ Operador -- AdminCitas
 Profesional -- Agenda
 Operador -> Profesional
 Citar .> AdminCitas
-Citar <.. NotificarPaciente
-Citar <.. NotificarProfesional
-Agenda <.. ConsultarPaciente
+Citar <.- NotificarPaciente
+Citar <.- NotificarProfesional
+Agenda <.- ConsultarPaciente
 Agenda <. Asistencia
 Asistencia -.> AdminCitas
 @enduml
