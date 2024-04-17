@@ -11,39 +11,39 @@ Lorem ipsum
 [caption="Importante"]
 Lorem ipsum
 
-image::capsi.png[]
+image::capsi.svg[]
 
-image::gestion-nav-mapamind.png[]
+image::gestion-nav-mapamind.svg[]
 
 = Diagramas de casos de uso de negocio
 == Control de acceso
 === Autenticación
-image::login-business-usecase.png[]
+image::login-business-usecase.svg[]
 === Reservar cita
-image::citas-bus-usecase.png[]
+image::citas-bus-usecase.svg[]
 === Reservar prueba
-image::pruebas-business-usecase.png[]
+image::pruebas-business-usecase.svg[]
 === Reservar consultorio
-image::consultorios-business-usecase.png[]
+image::consultorios-business-usecase.svg[]
 = Diagramas de casos de uso de aplicación
 == Maestros
 === Cita
-image::citas-app-usecase.png[]
+image::citas-app-usecase.svg[]
 === Prueba
-image::pruebas-app-usecase.png[]
+image::pruebas-app-usecase.svg[]
 === Consultorio
-image::consultorios-app-usecase.png[]
+image::consultorios-app-usecase.svg[]
 === Pacientes
-image::pacientes-app-usecase.png[]
+image::pacientes-app-usecase.svg[]
 === Programas
-image::programas-app-usecase.png[]
+image::programas-app-usecase.svg[]
 === Convenios
-image::convenios-app-usecase.png[]
+image::convenios-app-usecase.svg[]
 === Eps
-image::eps-app-usecase.png[]
+image::eps-app-usecase.svg[]
 === Estados
-image::estados-app-usecase.png[]
+image::estados-app-usecase.svg[]
 === Usuarios
-image::usuarios-app-usecase.png[]
+image::usuarios-app-usecase.svg[]
 === Permisos
-image::permisos-app-usecase.png[]
+image::permisos-app-usecase.svg[]
