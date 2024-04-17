@@ -1,29 +1,26 @@
 @startuml
 left to right direction
-actor Administrador
-actor Auxiliar
+actor Operador
+actor Profesional
 
 rectangle "Reservar cita" #BUSINESS {
-  usecase "Insertar cita" as C
-  usecase "Listar citas" as R
-  usecase "Editar cita" as U
-  usecase "Eliminar cita" as D
-  usecase "Filtrar citas" as Searchable
-  usecase "Ordenar citas" as Sortable
-  usecase "Administrar citas" as CRUD
-  note "Auxiliar puede o no realizar\r\n ciertas acciones de acuerdo\r\n al control de acceso" as Acl
+  usecase "Registrar Cita" as Citar
+  usecase "Consultar agenda de profesional" as Agenda
+  usecase "Administración de Citas" as AdminCitas
+  usecase "Consultar paciente" as ConsultarPaciente
+  usecase "Registrar asistencia" as Asistencia
+  usecase "Notificar a paciente" as NotificarPaciente
+  usecase "Notificar a Profesional" as NotificarProfesional
 }
 
-CRUD <--. C
-CRUD <--. R
-CRUD <--. U
-
-R <.. Searchable
-R <.. Sortable
-U <.. D: "Eliminar un cita"
-R <.. D: "Eliminar varios citas"
-
-Administrador -- CRUD
-Auxiliar -- CRUD
-Acl - CRUD
+Operador -- AdminCitas
+Operador -- Citar
+Profesional -- Agenda
+Operador -> Profesional
+Citar <-. NotificarPaciente
+Citar <-. NotificarProfesional
+Citar -.> Agenda
+Agenda <.- ConsultarPaciente
+Agenda <.- Asistencia
+AdminCitas <.-- Asistencia
 @enduml

@@ -1,13 +1,15 @@
 @startuml
-actor Profesiona
-boundary Panel
-control Foo3
-entity Foo4
-database Foo5
-collections Pacientes
-Profesional -[#red]> Operador : Al límite
-Profesional -> Foo3 : Al control
-Profesional -> Foo4 : A la entidad
-Profesional -> Foo5 : A la base de datos
-Profesional -> Pacientes : A colecciones
+participant Profesional
+boundary "Panel de profesional" as Panel
+control Agenda
+entity Cita
+database Consultorio
+
+Profesional -> Panel : Profesional revisa citas
+Panel -> Agenda : Asistencia de paciente
+Agenda -> Panel: Registrar que el paciente no asistió
+Agenda -> Cita: Registrar que el paciente asistió
+Cita -> Agenda: Liberar espacio en agenda
+Cita -> Consultorio: Asistir al paciente
+Consultorio -> Profesional: Atienda al paciente y registra el resultado
 @enduml
