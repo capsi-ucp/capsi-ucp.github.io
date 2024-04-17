@@ -4,5 +4,6 @@ asciidoc:
   attributes:
     source-highlighter: rouge
     doctype: book
+    pdf-theme: ./pdf-theme.yml
 build:
   command: bundle exec asciidoctor-pdf --sourcemap
