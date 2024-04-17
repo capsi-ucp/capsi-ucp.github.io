@@ -2,7 +2,7 @@
 left to right direction
 actor/ Operador
 actor/ Profesional
-note "Operador es relativo a\nAdministrador o Auxiliar" as Nota
+note "Operador es relativo a \n Administrador o Auxiliar" as Nota
 rectangle "Reserva de cita" #BUSINESS {
   package "Panel Operador" {
     usecase "Administración de citas" as AdminCitas << CRUD >>
