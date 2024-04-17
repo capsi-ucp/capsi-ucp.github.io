@@ -23,7 +23,7 @@ Citar <|-- NotificarProfesional
 AdminCitas <. Asistencia
 Agenda <|- Asistencia
 
-Citar <.- Reagendar: Sujeto a disponibilidad
+Citar <.- Reagendar
 Agenda <|-- Reagendar
 
 Agenda <|-- ConsultarPaciente
