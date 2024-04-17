@@ -1,10 +1,12 @@
 @startuml
+left to right direction
 actor/ Operador
 actor/ Profesional
 note as Nota
   Operador es relativo a
   Administrador o Auxiliar
 end note
+
 rectangle "Reserva de cita" #BUSINESS {
   package "Panel Operador" {
     usecase "Administración de citas" as AdminCitas << CRUD >>
@@ -21,7 +23,6 @@ rectangle "Reserva de cita" #BUSINESS {
 Operador -- AdminCitas
 Operador -- Citar
 Profesional -- Agenda
-Nota -> Operador
 Operador -> Profesional
 Citar -> AdminCitas
 Citar <.. NotificarPaciente
