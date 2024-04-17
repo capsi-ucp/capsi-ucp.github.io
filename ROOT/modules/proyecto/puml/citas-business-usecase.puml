@@ -3,13 +3,13 @@ left to right direction
 actor/ Operador
 actor/ Profesional
 
-rectangle "Panel Administracion" #BUSINESS {
-    usecase "Reservas de citas" as AdminCitas << CRUD >>
+rectangle "Panel administración" #BUSINESS {
+    usecase "Reservas de citas" << CRUD >> as AdminCitas
     usecase/ "Registrar cita" as Citar
     usecase/ "Notificar a paciente" as NotificarPaciente
     usecase/ "Notificar a profesional" as NotificarProfesional
 }
-rectangle "Panel Profesional" #BUSINESS {
+rectangle "Panel profesional" #BUSINESS {
     usecase/ "Consultar agenda" as Agenda
     usecase "Consultar paciente" as ConsultarPaciente
     usecase/ "Registrar asistencia" as Asistencia
