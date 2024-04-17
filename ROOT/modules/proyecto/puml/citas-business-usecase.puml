@@ -18,7 +18,6 @@ rectangle "Reserva de cita" #BUSINESS {
 }
 
 Operador -- AdminCitas
-Operador -- Citar
 Profesional -- Agenda
 Operador -> Profesional
 Citar .> AdminCitas
