@@ -1,25 +1,30 @@
 @startuml
 left to right direction
-actor Operador
-actor Profesional
-
-rectangle "Reservar cita" #BUSINESS {
-  usecase "Registrar cita" as Citar
-  usecase "Consultar agenda de profesional" as Agenda
-    usecase "Administración de citas" as AdminCitas
-  usecase "Consultar paciente" as ConsultarPaciente
-  usecase "Registrar asistencia" as Asistencia
-  usecase "Notificar a paciente" as NotificarPaciente
-  usecase "Notificar a profesional" as NotificarProfesional
+actor/ Operador
+actor/ Profesional
+note "Operador es relativo a\nAdministrador o Auxiliar" as Nota
+rectangle "Reserva de cita" #BUSINESS {
+  package "Panel Operador" {
+    usecase "Administración de citas" as AdminCitas << CRUD >>
+    usecase/ "Registrar cita" as Citar
+    usecase/ "Notificar a paciente" as NotificarPaciente
+    usecase/ "Notificar a profesional" as NotificarProfesional
+  }
+  package "Panel Profesional" {
+    usecase/ "Consultar agenda" as Agenda
+    usecase "Consultar paciente" as ConsultarPaciente
+    usecase/ "Registrar asistencia" as Asistencia
+  }
 }
 Operador -- AdminCitas
 Operador -- Citar
 Profesional -- Agenda
+Nota -> Operador
 Operador -> Profesional
-Citar <-. NotificarPaciente
-Citar <-. NotificarProfesional
-Citar -.> Agenda
-Agenda <.- ConsultarPaciente
-Agenda <.- Asistencia
-AdminCitas <.-- Asistencia
+Citar -> AdminCitas
+Citar <.. NotificarPaciente
+Citar <.. NotificarProfesional
+Agenda <.. ConsultarPaciente
+Agenda <. Asistencia
+Asistencia -.> AdminCitas
 @enduml
