@@ -4,15 +4,15 @@ actor Operador
 actor Profesional
 
 rectangle "Panel administración" #BUSINESS {
-    usecase "Reservas de citas << CRUD >>" as AdminCitas
-    usecase/ "Registrar cita" as Citar
-    usecase/ "Notificar a paciente" as NotificarPaciente
-    usecase/ "Notificar a profesional" as NotificarProfesional
+    usecase "Reservas de citas" as AdminCitas
+    usecase "Registrar cita" as Citar
+    usecase "Notificar a paciente" as NotificarPaciente
+    usecase "Notificar a profesional" as NotificarProfesional
 }
 rectangle "Panel profesional" #BUSINESS {
-    usecase/ "Consultar agenda" as Agenda
+    usecase "Consultar agenda" as Agenda
     usecase "Consultar paciente" as ConsultarPaciente
-    usecase/ "Registrar asistencia" as Asistencia
+    usecase "Registrar asistencia" as Asistencia
 }
 
 Citar -> AdminCitas
