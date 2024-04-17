@@ -1,6 +1,7 @@
 site:
   title: Capsi Documentación
   start_page: ROOT::index.adoc
+  robots: disallow
 content:
   sources: 
   - url: ./
