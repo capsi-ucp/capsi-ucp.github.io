@@ -1,3 +1,2 @@
 * Proyecto
 ** xref:index.adoc[]
-** xref:code.adoc[]
