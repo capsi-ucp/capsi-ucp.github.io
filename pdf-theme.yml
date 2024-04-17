@@ -1,6 +1,7 @@
 extends: default-with-font-fallbacks
 page:
   size: Legal
+  layout: portrait
   numbering:
     start-at: title
   front-cover-image: ~  
@@ -10,13 +11,13 @@ page:
   margin-outer: 15mm
 header:
   content: chapter-title
-footer:
-  recto: &shared_footer
-    right:
-      content: '{page-number}'
-  verso: *shared_footer
-  margin-bottom: 10mm
-  margin-right: 15mm
+##footer:
+##  recto: &shared_footer
+##    right:
+##      content: '{page-number}'
+##  verso: *shared_footer
+##  margin-bottom: 10mm
+##  margin-right: 15mm
 title-page:
   background-image: cover.png
 ##  logo:
