@@ -14,14 +14,17 @@ rectangle "Panel Profesional" #BUSINESS {
     usecase "Consultar paciente" as ConsultarPaciente
     usecase/ "Registrar asistencia" as Asistencia
 }
-Operador -- AdminCitas
-Operador -- Citar
-Profesional -- Agenda
-Operador -> Profesional
+
 Citar -> AdminCitas
 Citar <.. NotificarPaciente
 Citar <.. NotificarProfesional
-Agenda <.. ConsultarPaciente
+
+AdminCitas <. Asistencia
 Agenda <. Asistencia
-Asistencia -.> AdminCitas
+
+Agenda <.. ConsultarPaciente
+
+Operador -> Profesional
+Operador -- AdminCitas
+Profesional -- Agenda
 @enduml
