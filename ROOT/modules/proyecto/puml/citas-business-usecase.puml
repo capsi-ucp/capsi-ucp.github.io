@@ -3,18 +3,16 @@ left to right direction
 actor/ Operador
 actor/ Profesional
 
-rectangle "Reserva de cita" #BUSINESS {
-  package "Panel Operador" {
+rectangle "Panel Administracion" #BUSINESS {
     usecase "Administración de citas" as AdminCitas << CRUD >>
     usecase/ "Registrar cita" as Citar
     usecase/ "Notificar a paciente" as NotificarPaciente
     usecase/ "Notificar a profesional" as NotificarProfesional
-  }
-  package "Panel Profesional" {
+}
+rectangle "Panel Profesional" #BUSINESS {
     usecase/ "Consultar agenda" as Agenda
     usecase "Consultar paciente" as ConsultarPaciente
     usecase/ "Registrar asistencia" as Asistencia
-  }
 }
 Operador -- AdminCitas
 Operador -- Citar
