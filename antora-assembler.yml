@@ -3,5 +3,6 @@ component_versions: '*'
 asciidoc:
   attributes:
     source-highlighter: rouge
+    doctype: book
 build:
-  command: bundle exec asciidoctor-pdf --trace --sourcemap
+  command: bundle exec asciidoctor-pdf --sourcemap
