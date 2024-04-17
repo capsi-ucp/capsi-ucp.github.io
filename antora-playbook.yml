@@ -6,6 +6,7 @@ content:
   - url: ./
     branches: HEAD
     start_path: ROOT
+    edit_url: ~ 
 ui: 
   bundle:
     url: https://capsi-ucp.github.io/theme-docs/ui-bundle.zip
