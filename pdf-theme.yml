@@ -1,0 +1,27 @@
+extends: default-with-font-fallbacks
+page:
+  size: Legal
+  numbering:
+    start-at: title
+  front-cover-image: ~  
+  margin-top: 24mm
+  margin-botton: 20mm
+  margin-inner: 15mm
+  margin-outer: 15mm
+header:
+  content: chapter-title
+footer:
+  recto: &shared_footer
+    right:
+      content: '{page-number}'
+  verso: *shared_footer
+  margin-bottom: 10mm
+  margin-right: 15mm
+title-page:
+  background-image: cover.png
+##  logo:
+##    image: coverLogo.png
+##    align: center
+  font-color: #FFFFFF
+running-content:
+  start-at: after-toc

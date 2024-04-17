@@ -1,5 +1,7 @@
 root_level: 0
 component_versions: '*'
+title-page-background-image: cover.png
+title-logo-image: coverLogo.png
 asciidoc:
   attributes:
     source-highlighter: rouge

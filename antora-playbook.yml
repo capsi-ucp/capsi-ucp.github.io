@@ -16,7 +16,7 @@ asciidoc:
   attributes:
     page-component-sort-order: ROOT
     doctype: book
-    pdf-theme: ./pdf-theme.yml
 antora:
   extensions:
   - '@antora/lunr-extension'
+  - '@antora/pdf-extension'
