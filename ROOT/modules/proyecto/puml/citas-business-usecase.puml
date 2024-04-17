@@ -21,7 +21,7 @@ Operador -- AdminCitas
 Operador -- Citar
 Profesional -- Agenda
 Operador -> Profesional
-Citar -> AdminCitas
+Citar .> AdminCitas
 Citar <.. NotificarPaciente
 Citar <.. NotificarProfesional
 Agenda <.. ConsultarPaciente
