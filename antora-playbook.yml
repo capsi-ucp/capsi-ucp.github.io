@@ -18,3 +18,4 @@ asciidoc:
 antora:
   extensions:
   - '@antora/lunr-extension'
+  - '@antora/pdf-extension'
