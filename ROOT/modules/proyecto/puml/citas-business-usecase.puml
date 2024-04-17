@@ -16,14 +16,14 @@ rectangle "Reserva de cita" #BUSINESS {
     usecase/ "Registrar asistencia" as Asistencia
   }
 }
-
 Operador -- AdminCitas
+Operador -- Citar
 Profesional -- Agenda
 Operador -> Profesional
-Citar .> AdminCitas
-Citar <.- NotificarPaciente
-Citar <.- NotificarProfesional
-Agenda <.- ConsultarPaciente
+Citar -> AdminCitas
+Citar <.. NotificarPaciente
+Citar <.. NotificarProfesional
+Agenda <.. ConsultarPaciente
 Agenda <. Asistencia
 Asistencia -.> AdminCitas
 @enduml
