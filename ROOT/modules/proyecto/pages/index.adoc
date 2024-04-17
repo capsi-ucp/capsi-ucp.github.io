@@ -1,4 +1,6 @@
 = Introducción
+:doctype: book
+:toc: 
 
 [example]
 Lorem ipsum
@@ -16,10 +18,18 @@ image::capsi.svg[]
 image::gestion-nav-mapamind.svg[]
 
 = Diagramas de casos de uso de negocio
+:doctype: book
+:toc: 
 == Control de acceso
+:doctype: book
+:toc: 
 === Autenticación
+:doctype: book
+:toc: 
 image::login-business-usecase.svg[]
 === Reservar cita
+:doctype: book
+:toc: 
 image::citas-usecase.svg[]
 === Reservar prueba
 image::pruebas-business-usecase.svg[]
