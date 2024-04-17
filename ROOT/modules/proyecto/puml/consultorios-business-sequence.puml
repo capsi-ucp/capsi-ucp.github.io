@@ -9,7 +9,6 @@ Profesional -> Panel : Profesional revisa citas
 Panel -> Agenda : Asistencia de paciente
 Agenda -> Panel: Registrar que el paciente no asistió
 Agenda -> Cita: Registrar que el paciente asistió
-Cita -> Agenda: Liberar espacio en agenda
 Cita -> Consultorio: Asistir al paciente
-Consultorio -> Profesional: Atienda al paciente y registra el resultado
+Consultorio -> Profesional: Atender al paciente y registra el resultado
 @enduml
