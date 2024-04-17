@@ -55,7 +55,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Setup plantuml
-        run: sudo apt update -y
+        run: sudo apt update -y && sudo  apt upgrade -y
       - name: Setup plantuml
         run: sudo apt install plantuml graphviz openjdk-17-jre-headless -y 
       - name: Install npm dependencies
