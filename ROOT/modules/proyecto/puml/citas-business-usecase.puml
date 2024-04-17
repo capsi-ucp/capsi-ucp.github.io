@@ -4,15 +4,14 @@ actor Operador
 actor Profesional
 
 rectangle "Reservar cita" #BUSINESS {
-  usecase "Registrar Cita" as Citar
+  usecase "Registrar cita" as Citar
   usecase "Consultar agenda de profesional" as Agenda
-  usecase "Administración de Citas" as AdminCitas
+    usecase "Administración de citas" as AdminCitas
   usecase "Consultar paciente" as ConsultarPaciente
   usecase "Registrar asistencia" as Asistencia
   usecase "Notificar a paciente" as NotificarPaciente
-  usecase "Notificar a Profesional" as NotificarProfesional
+  usecase "Notificar a profesional" as NotificarProfesional
 }
-
 Operador -- AdminCitas
 Operador -- Citar
 Profesional -- Agenda
