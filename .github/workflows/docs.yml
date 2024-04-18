@@ -58,6 +58,7 @@ jobs:
         run: sudo apt install plantuml ruby-full -y 
       - name: Install ruby gem
         run: |
+          gem install bundle
           bundle config --local path .bundle/gems
           bundle
           bundle install --jobs 4 --retry 3
