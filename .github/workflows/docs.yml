@@ -55,10 +55,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Setup plantuml
-        run: sudo apt install plantuml ruby-full -y 
+        run: sudo apt -qq install plantuml ruby-full -y 
       - name: Install ruby gem
         run: |
-          sudo gem install bundle
+          gem install --all
           bundle config --local path .bundle/gems
           bundle
           bundle install --jobs 4 --retry 3
