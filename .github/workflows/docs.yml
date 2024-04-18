@@ -59,6 +59,7 @@ jobs:
       - name: Install ruby gem
         run: |
           sudo gem install bundler
+          gem install
           bundle install --jobs 4 --retry 3
       - name: Install npm dependencies
         run: npm install
