@@ -1,6 +1,4 @@
 = Introducción
-:doctype: book
-:toc: 
 [example]
 Lorem ipsum
 

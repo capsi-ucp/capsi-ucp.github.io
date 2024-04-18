@@ -16,6 +16,10 @@ asciidoc:
   attributes:
     page-component-sort-order: ROOT
     doctype: book
+    toc2: true
+    sectnumlevels: 1
+    toc3levels: 3
+    media: prepress
 antora:
   extensions:
   - '@antora/lunr-extension'

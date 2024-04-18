@@ -20,7 +20,8 @@ header:
 ##  margin-right: 15mm
 title-page:
   background-image: cover.png
-##  logo:
-##    image: coverLogo.png
-##    align: center
   font-color: #FFFFFF
+  title:
+    display: none
+running-content:
+  start-at: toc
