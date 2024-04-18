@@ -56,9 +56,6 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Setup plantuml
         run: sudo apt install plantuml libpq-dev -y 
-      - uses: actions/setup-ruby@v1
-        with:
-          ruby-version: 3.2.2
       - name: Install ruby gem
         run: |
           gem install bundler
