@@ -56,12 +56,14 @@ jobs:
         uses: actions/configure-pages@v4
       - name: Setup plantuml
         run: sudo apt -qq install plantuml ruby-full -y 
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+      - run: bundle config --local path .bundle/gems
+      - run: bundle install --jobs 4 --retry 3
+      - run: bundle exec rake
       - name: Install ruby gem
-        run: |
-          gem install --all
-          bundle config --local path .bundle/gems
-          bundle
-          bundle install --jobs 4 --retry 3
+        run: bundle
       - name: Install npm dependencies
         run: npm install
       - name: Generate PNG UML Diagrams
