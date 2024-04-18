@@ -58,8 +58,8 @@ jobs:
         run: sudo apt install plantuml libpq-dev -y 
       - name: Install ruby gem
         run: |
-          sudo gem install bundler
-          gem install
+          bundle config --local path .bundle/gems
+          bundle
           bundle install --jobs 4 --retry 3
       - name: Install npm dependencies
         run: npm install
