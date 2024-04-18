@@ -17,8 +17,7 @@ asciidoc:
     page-component-sort-order: ROOT
     doctype: book
     toc2: true
-    sectnumlevels: 1
-    toc3levels: 3
+    toc2levels: 3
     media: prepress
 antora:
   extensions:
