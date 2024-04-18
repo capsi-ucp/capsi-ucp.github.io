@@ -61,7 +61,7 @@ jobs:
       - name: Generate PNG UML Diagrams
         run: npm run generate-svg-diagrams
       - name: Build with antora
-        run: npm run build
+        run: npx antora antora-playbook.yml
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
