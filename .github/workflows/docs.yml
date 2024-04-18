@@ -55,7 +55,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Setup plantuml
-        run: sudo apt install plantuml libpq-dev -y 
+        run: sudo apt install plantuml ruby-full -y 
       - name: Install ruby gem
         run: |
           bundle config --local path .bundle/gems
