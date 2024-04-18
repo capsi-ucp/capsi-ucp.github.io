@@ -1,6 +1,6 @@
 extends: default-with-font-fallbacks
 page:
-  size: Legal
+  size: Letter
   layout: portrait
   numbering:
     start-at: title
@@ -24,5 +24,3 @@ title-page:
 ##    image: coverLogo.png
 ##    align: center
   font-color: #FFFFFF
-running-content:
-  start-at: after-toc
