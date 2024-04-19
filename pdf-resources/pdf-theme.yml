@@ -42,13 +42,11 @@ header:
       content: '_{organization}_'
 footer:
   recto:
-    content-margin: [inherit, inherit, 1in, inherit]
     left:
       content: '{page-number}'
     right:
       content: '{section-or-chapter-title}'
   verso:
-    content-margin: [inherit, inherit, 1in, inherit]
     left:
       content: '{section-or-chapter-title}'
     right:
