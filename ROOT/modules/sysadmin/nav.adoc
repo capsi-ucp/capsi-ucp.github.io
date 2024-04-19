@@ -1,2 +1,0 @@
-* Manual de implementación
-** xref:index.adoc[]

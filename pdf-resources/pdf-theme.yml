@@ -38,11 +38,10 @@ title-page:
 header:
   font_color: 999999
   height: 1.5in
-  content: chapter-title
   recto:
     columns: "<40% =20% >40%"
     right:
-      content: '_{organization}_'
+      content: '_{project}_'
 footer:
   height: 1.5in
   recto:

@@ -9,6 +9,7 @@ asciidoc:
     table-caption: false
 nav:
 - modules/ROOT/nav.adoc
+- modules/requerimientos/nav.adoc
 - modules/professional/nav.adoc
 - modules/operator/nav.adoc
-- modules/sysadmin/nav.adoc
+- modules/deploy/nav.adoc
