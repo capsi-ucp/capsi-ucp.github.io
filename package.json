@@ -1,9 +1,7 @@
 {
   "scripts": {
     "build": "node_modules/@antora/cli/bin/antora --fetch antora-playbook.yml",
-    "serve": "node_modules/http-server/bin/http-server build/site -c-1",
-    "generate-svg-diagrams": "plantuml -I ROOT/modules/ROOT/puml/*.puml -o ../images/ -tsvg",
-    "generate-png-diagrams": "plantuml -I ROOT/modules/ROOT/puml/*.puml -o ../images/ -tpng"
+    "serve": "node_modules/http-server/bin/http-server build/site -c-1"
   },
   "devDependencies": {
     "@antora/cli": "3.1.7",

@@ -14,9 +14,15 @@ Lorem ipsum
 [caption="Importante"]
 Lorem ipsum
 
-image::capsi.svg[]
+[plantuml,capsi,svg,role=sequence]
+----
+include::partial$capsi.puml[]
+----
 
-image::gestion-nav-mapamind.svg[]
+[plantuml,gestion-nav-mapamind,svg,role=mapamind]
+----
+include::partial$gestion-nav-mapamind.puml[]
+----
 
 = Diagramas de casos de uso de negocio
 
@@ -24,35 +30,77 @@ image::gestion-nav-mapamind.svg[]
 
 === Autenticación
 
-image::login-business-usecase.svg[]
+[plantuml,login-business-usecase,svg,role=usecase]
+----
+include::partial$login-business-usecase.puml[]
+----
 === Reservar cita
 
-image::citas-usecase.svg[]
+[plantuml,citas-usecase,svg,role=usecase]
+----
+include::partial$citas-usecase.puml[]
+----
 === Reservar prueba
-image::pruebas-business-usecase.svg[]
+[plantuml,pruebas-business-usecase,svg,role=usecase]
+----
+include::partial$pruebas-business-usecase.puml[]
+----
 === Reservar consultorio
-image::consultorios-business-usecase.svg[]
+[plantuml,consultorios-business-usecase,svg,role=usecase]
+----
+include::partial$consultorios-business-usecase.puml[]
+----
 = Diagramas de casos de uso de aplicación
 == Maestros
 :toc:
 === Cita
 :toc:
-image::citas-app-usecase.svg[]
+[plantuml,citas-app-usecase,svg,role=usecase]
+----
+include::partial$citas-app-usecase.puml[]
+----
 === Prueba
-image::pruebas-app-usecase.svg[]
+[plantuml,pruebas-app-usecase,svg,role=usecase]
+----
+include::partial$pruebas-app-usecase.puml[]
+----
 === Consultorio
-image::consultorios-app-usecase.svg[]
+[plantuml,consultorios-app-usecase,svg,role=usecase]
+----
+include::partial$consultorios-app-usecase.puml[]
+----
 === Pacientes
-image::pacientes-app-usecase.svg[]
+[plantuml,pacientes-app-usecase,svg,role=usecase]
+----
+include::partial$pacientes-app-usecase.puml[]
+----
 === Programas
-image::programas-app-usecase.svg[]
+[plantuml,programas-app-usecase,svg,role=usecase]
+----
+include::partial$programas-app-usecase.puml[]
+----
 === Convenios
-image::convenios-app-usecase.svg[]
+[plantuml,convenios-app-usecase,svg,role=usecase]
+----
+include::partial$convenios-app-usecase.puml[]
+----
 === Eps
-image::eps-app-usecase.svg[]
+[plantuml,eps-app-usecase,svg,role=usecase]
+----
+include::partial$eps-app-usecase.puml[]
+----
 === Estados
-image::estados-app-usecase.svg[]
+[plantuml,estados-app-usecase,svg,role=usecase]
+----
+include::partial$estados-app-usecase.puml[]
+----
 === Usuarios
-image::usuarios-app-usecase.svg[]
+[plantuml,usuarios-app-usecase,svg,role=usecase]
+----
+include::partial$usuarios-app-usecase.puml[]
+----
 === Permisos
-image::permisos-app-usecase.svg[]
+[plantuml,permisos-app-usecase,svg,role=usecase]
+----
+include::partial$permisos-app-usecase.puml[]
+----
