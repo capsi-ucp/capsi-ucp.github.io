@@ -1,1 +1,7 @@
 = Requerimientos no funcionales
+== Rendimiento
+== Usabilidad
+== Accesibilidad
+== Disponibilidad
+== Seguridad
+== Interoprabilidad

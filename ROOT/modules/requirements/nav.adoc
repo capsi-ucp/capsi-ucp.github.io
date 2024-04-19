@@ -2,3 +2,4 @@
 ** xref:index.adoc[]
 ** xref:functional.adoc[]
 ** xref:non-functional.adoc[]
+** xref:interface.adoc[]
