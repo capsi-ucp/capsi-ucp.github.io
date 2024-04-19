@@ -37,14 +37,14 @@ title-page:
   text-align: center
 header:
   font_color: 999999
-  height: 0.5in
+  height: 1.5in
   content: chapter-title
   recto:
     columns: "<40% =20% >40%"
     right:
       content: '_{organization}_'
 footer:
-  height: 0.45in
+  height: 1.5in
   recto:
     left:
       content: '{page-number}'
