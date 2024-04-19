@@ -8,8 +8,6 @@ asciidoc:
     organization: CAPSI
     toc-title: Tabla de Contenidos
     toc2: true
-    toclevels: 5
-    page-toclevels: 5
     cover: true
     author_1: 'Alejandra Castro'
     author_2: 'Edwin Ceballos'
