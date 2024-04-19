@@ -11,7 +11,10 @@ page:
   margin-botton: 1in
   margin-inner: 1in
   margin-outer: 1in
-  background-image: image:background.jpg[fit=fill]
+  background-image: 
+  background-image:
+    recto: image:background-recto.jpg[fit=fill]
+    verso: image:background-verso.jpg[fit=fill]
   numbering:
     start-at: toc
 title-page:

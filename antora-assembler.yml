@@ -15,5 +15,6 @@ asciidoc:
     author_2: 'Edwin Ceballos'
     author_3: 'Johana Ramírez Aguirre'
     revnumber: v1.0-alfa
+    revdate: Abril, 2024
 build:
   command: bundle exec asciidoctor-pdf
