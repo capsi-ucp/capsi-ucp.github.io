@@ -13,7 +13,7 @@ page:
     recto: image:background-recto.jpg[fit=fill]
     verso: image:background-verso.jpg[fit=fill]
 base:
-  indent: 1in
+  indent: 1.5in
   font-size: 12
   line-height-length: 17
   line-height: $base-line-height-length / $base-font-size
@@ -42,13 +42,13 @@ header:
       content: '_{organization}_'
 footer:
   recto:
-    content-margin: [1in, 1in, 1in, 1in]
+    content-margin: [inherit, inherit, 1in, inherit]
     left:
       content: '{page-number}'
     right:
-      content: '{section-or-chapter-title} | {page-number}'
+      content: '{section-or-chapter-title}'
   verso:
-    content-margin: [1in, 1in, 1in, 1in]
+    content-margin: [inherit, inherit, 1in, inherit]
     left:
       content: '{section-or-chapter-title}'
     right:
