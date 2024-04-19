@@ -7,19 +7,18 @@ cover:
 page:
   size: Letter
   layout: portrait
-  numbering:
-    start-at: toc
   margin-top: 1in
   margin-botton: 1in
   margin-inner: 1in
   margin-outer: 1in
   background-image: image:background.jpg[fit=fill]
+  numbering:
+    start-at: toc
 title-page:
   background-image: image:title.png[fit=fill]
   logo:
-    image: image:logo.png[pdfwidth=30%,align=center]
+    image: image:logo.png[pdfwidth=50%,align=center]
   title:
-#    top: 55%
     font_color: 000000
 #    line_height: 0.9
   authors:
@@ -32,6 +31,7 @@ title-page:
   revision:
     display: true
     margin_top: $base_font_size * 1.25
+  text-align: center
 header:
   font_color: 999999
   height: 0.5in
@@ -53,15 +53,14 @@ footer:
     right:
       content: '{page-number}'
 toc:
-  indent: 20
+  indent: 5
   line-height: 1.8
   font-size: 16
   h1-font-size: 16
-  h1-align: center
   h2-font-size: 14
   h3-font-size: 10
   title:
     text-align: center
     font-size: 20
 section:
-  indent: 1.5in
+  indent: 1.5in@
