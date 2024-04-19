@@ -1,1 +1,1 @@
-= Requerimientos funcionales
+= Requerimientos de interfaces de usuario
