@@ -1,5 +1,6 @@
 = Introducción
-
+:author: Kismet R. Lee 
+:email: kismet@asciidoctor.org 
 [example]
 Lorem ipsum
 

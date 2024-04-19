@@ -1,4 +1,8 @@
 = Introducción
+Author Name
+v1.0, 2020-02-20
+[.metadata]
+{author} -- version {revnumber}, {revdate}
 
 [example]
 Lorem ipsum
