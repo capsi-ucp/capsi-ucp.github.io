@@ -40,7 +40,6 @@ header:
     columns: "<40% =20% >40%"
     right:
       content: '_{organization}_'
-
 footer:
   height: 0.45in
   recto:
@@ -49,3 +48,13 @@ footer:
   verso:
     right:
       content: '{section-or-chapter-title} | {page-number}'
+toc:
+  indent: 20
+  line-height: 1.8
+  font-size: 16
+  h1-font-size: 16
+  h2-font-size: 14
+  h3-font-size: 10
+  title:
+    text-align: center
+    font-size: 20
