@@ -1,2 +1,0 @@
-= Error 404
-:page-layout: 404
