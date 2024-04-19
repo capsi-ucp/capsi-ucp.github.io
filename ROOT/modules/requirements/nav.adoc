@@ -1,2 +1,4 @@
 * Requerimientos de software
 ** xref:index.adoc[]
+** xref:functional.adoc[]
+** xref:non-functional.adoc[]
