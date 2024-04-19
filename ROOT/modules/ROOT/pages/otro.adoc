@@ -1,0 +1,26 @@
+= Otro
+
+[example]
+Lorem ipsum
+
+[NOTE]
+[caption="Nota"]
+Lorem ipsum
+
+[IMPORTANT]
+[caption="Importante"]
+Lorem ipsum
+
+[plantuml,alice-bob,svg,role=sequence]
+----
+include::partial$alice-bob.puml[]
+----
+
+[graphviz]
+digraph foo {
+  node [style=rounded]
+  node1 [shape=box]
+  node2 [fillcolor=yellow, style="rounded,filled", shape=diamond]
+  node3 [shape=record, label="{ a | b | c }"]
+  node1 -> node2 -> node3
+}

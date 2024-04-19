@@ -1,9 +1,15 @@
 root_level: 1
-component_versions: '*'
+component_versions: "*"
 asciidoc:
   attributes:
     source-highlighter: rouge
     doctype: book
-    pdf-theme: ./pdf-theme.yml
+#    pdf-theme: ./pdf-theme.yml
+    organization: CAPSI
+    toc2: true
+    toclevels: 5
+    toc-title: Tabla de Contenidos
+#    page-toclevels: 1@
+    page-team: Coco B
 build:
-  command: bundle exec asciidoctor-pdf --sourcemap
+  command: bundle exec asciidoctor-pdf

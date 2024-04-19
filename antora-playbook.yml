@@ -13,12 +13,11 @@ ui:
     url: https://capsi-ucp.github.io/theme-docs/ui-bundle.zip
     snapshot: true
 asciidoc:
+  extensions:
+    - asciidoctor-kroki
   attributes:
     page-component-sort-order: ROOT
     doctype: book
-    toc2: true
-    toc2levels: 3
-    media: prepress
 antora:
   extensions:
   - '@antora/lunr-extension'
