@@ -1,12 +1,1 @@
 = Agradecimientos
-
-[example]
-Lorem ipsum
-
-[NOTE]
-[caption="Nota"]
-Lorem ipsum
-
-[IMPORTANT]
-[caption="Importante"]
-Lorem ipsum

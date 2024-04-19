@@ -11,3 +11,93 @@ Lorem ipsum
 [caption="Importante"]
 Lorem ipsum
 
+[plantuml,capsi,svg,role=sequence]
+----
+include::partial$capsi.puml[]
+----
+
+[plantuml,gestion-nav-mapamind,svg,role=mapamind]
+----
+include::partial$gestion-nav-mapamind.puml[]
+----
+
+= Diagramas de casos de uso de negocio
+
+== Control de acceso
+
+=== Autenticación
+
+[plantuml,login-business-usecase,svg,role=usecase]
+----
+include::partial$login-business-usecase.puml[]
+----
+=== Reservar cita
+
+[plantuml,citas-usecase,svg,role=usecase]
+----
+include::partial$citas-usecase.puml[]
+----
+=== Reservar prueba
+[plantuml,pruebas-business-usecase,svg,role=usecase]
+----
+include::partial$pruebas-business-usecase.puml[]
+----
+=== Reservar consultorio
+[plantuml,consultorios-business-usecase,svg,role=usecase]
+----
+include::partial$consultorios-business-usecase.puml[]
+----
+= Diagramas de casos de uso de aplicación
+== Maestros
+:toc:
+=== Cita
+:toc:
+[plantuml,citas-app-usecase,svg,role=usecase]
+----
+include::partial$citas-app-usecase.puml[]
+----
+=== Prueba
+[plantuml,pruebas-app-usecase,svg,role=usecase]
+----
+include::partial$pruebas-app-usecase.puml[]
+----
+=== Consultorio
+[plantuml,consultorios-app-usecase,svg,role=usecase]
+----
+include::partial$consultorios-app-usecase.puml[]
+----
+=== Pacientes
+[plantuml,pacientes-app-usecase,svg,role=usecase]
+----
+include::partial$pacientes-app-usecase.puml[]
+----
+=== Programas
+[plantuml,programas-app-usecase,svg,role=usecase]
+----
+include::partial$programas-app-usecase.puml[]
+----
+=== Convenios
+[plantuml,convenios-app-usecase,svg,role=usecase]
+----
+include::partial$convenios-app-usecase.puml[]
+----
+=== Eps
+[plantuml,eps-app-usecase,svg,role=usecase]
+----
+include::partial$eps-app-usecase.puml[]
+----
+=== Estados
+[plantuml,estados-app-usecase,svg,role=usecase]
+----
+include::partial$estados-app-usecase.puml[]
+----
+=== Usuarios
+[plantuml,usuarios-app-usecase,svg,role=usecase]
+----
+include::partial$usuarios-app-usecase.puml[]
+----
+=== Permisos
+[plantuml,permisos-app-usecase,svg,role=usecase]
+----
+include::partial$permisos-app-usecase.puml[]
+----

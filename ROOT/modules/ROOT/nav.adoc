@@ -1,5 +1,6 @@
 * Trabajo de grado
 ** xref:index.adoc[]
+** xref:licencia.adoc[]
 ** xref:agradecimientos.adoc[]
 ** xref:resumen.adoc[]
 ** xref:tabla-de-graficas.adoc[]
