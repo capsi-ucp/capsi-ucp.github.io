@@ -1,2 +1,2 @@
-* Manual de Infraestructura
+* Manual de implementación
 ** xref:index.adoc[]

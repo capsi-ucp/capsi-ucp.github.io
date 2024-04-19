@@ -12,8 +12,8 @@ asciidoc:
     page-toclevels: 5
     cover: true
     author_1: 'Alejandra Castro Giraldo'
-    author_2: 'Johana Ramírez Aguirre'
-    author_3: 'Edwin Ceballos'
-    revnumber: 1.0.0-alfa
+    author_2: 'Edwin Ceballos'
+    author_3: 'Johana Ramírez Aguirre'
+    revnumber: v1.0-alfa
 build:
   command: bundle exec asciidoctor-pdf
