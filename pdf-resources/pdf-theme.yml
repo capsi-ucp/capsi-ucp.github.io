@@ -4,6 +4,14 @@ cover:
     image: image:cover.png[fit=fill]
   back:
     image: image:back.png[fit=fill]
+##    font:
+##      catalog:
+##        merge: false 
+##        Arial:
+##          normal: ./fonts/arial.ttf
+##    ##      italic: fonts/arial-italic.ttf
+##          bold: fonts/arial-bold.ttf
+##    ##      bold_italic: fonts/arial-bold_italic.ttf
 page:
   size: Letter
   layout: portrait
@@ -15,6 +23,8 @@ page:
 base:
   indent: 1.5in
   font-size: 12
+#  font-family: Arial, sans-serif
+  font-family: Noto Serif
   line-height-length: 17
   line-height: $base-line-height-length / $base-font-size
 title-page:
@@ -66,4 +76,6 @@ section:
 heading:
   h1-text-align: center
   h2-text-align: center
-  h3-text-align: center
+  h3-text-align: left
+  h4-text-align: left
+  h5-text-align: left
